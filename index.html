@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>中级财管刷题诊断</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="panel sidebar">
+        <div>
+          <p class="eyebrow">中级会计 · 财务管理</p>
+          <h1>刷题诊断台</h1>
+          <p class="subtle">基于 2023-2025 真题单选题，本地保存答题记录。</p>
+        </div>
+
+        <section class="stats">
+          <div>
+            <span id="totalDone">0</span>
+            <small>累计答题</small>
+          </div>
+          <div>
+            <span id="accuracy">-</span>
+            <small>累计正确率</small>
+          </div>
+        </section>
+
+        <section>
+          <h2>题库构成</h2>
+          <div id="bankStats" class="bank-stats"></div>
+        </section>
+
+        <section>
+          <h2>薄弱知识点</h2>
+          <div id="weakList" class="weak-list"></div>
+        </section>
+
+        <section class="actions">
+          <button id="startDiagnostic" class="primary">开始 30 题摸底</button>
+          <button id="startPractice">薄弱点强化</button>
+          <button id="reviewWrong">复习错题</button>
+          <button id="resetData" class="ghost">清空本地记录</button>
+        </section>
+      </aside>
+
+      <section class="workspace">
+        <div class="topbar">
+          <div>
+            <p id="modeLabel" class="eyebrow">准备开始</p>
+            <h2 id="sessionTitle">选择一个练习模式</h2>
+          </div>
+          <div class="progress">
+            <span id="progressText">0 / 0</span>
+            <div><i id="progressBar"></i></div>
+          </div>
+        </div>
+
+        <article id="questionView" class="panel question hidden">
+          <div class="meta">
+            <span id="topicBadge"></span>
+            <span id="sourceBadge"></span>
+          </div>
+          <h3 id="questionStem"></h3>
+          <div id="options" class="options"></div>
+          <div id="feedback" class="feedback hidden"></div>
+          <div class="footer-actions">
+            <button id="submitAnswer" class="primary">提交答案</button>
+            <button id="nextQuestion" class="hidden">下一题</button>
+          </div>
+        </article>
+
+        <article id="emptyView" class="panel empty">
+          <h3>先做一套摸底题</h3>
+          <p>30 道单选题可以在工作日 1 小时内完成。完成后，系统会按知识点给出短板排序，并自动生成下一轮强化题。</p>
+        </article>
+
+        <article id="resultView" class="panel result hidden">
+          <h3 id="resultTitle"></h3>
+          <div id="resultSummary" class="result-grid"></div>
+          <div>
+            <h4>下一步建议</h4>
+            <ul id="adviceList"></ul>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
