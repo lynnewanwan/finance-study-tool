@@ -9,9 +9,16 @@ const state = {
 };
 
 const storageKey = "finance-study-tool-v1";
+const isEdgeOneHost = location.hostname.endsWith(".edgeone.cool");
 const aiConfig = {
-  endpoint: "https://finance-study-ai-proxy.lynnewanwan.workers.dev/",
+  endpoints: isEdgeOneHost
+    ? ["/api/explain", "https://finance-study-ai-proxy.lynnewanwan.workers.dev/"]
+    : [
+        "https://finance-study-ai-d3eve8912af2b1e-1462298552.ap-shanghai.app.tcloudbase.com/explain",
+        "https://finance-study-ai-proxy.lynnewanwan.workers.dev/",
+      ],
   useMock: false,
+  timeoutMs: 20000,
 };
 
 const els = {
@@ -345,18 +352,44 @@ async function explainCurrentQuestion() {
 }
 
 async function requestAiExplanation(payload) {
-  if (!aiConfig.endpoint) {
+  const endpoints = aiConfig.endpoints?.length ? aiConfig.endpoints : [aiConfig.endpoint].filter(Boolean);
+  if (!endpoints.length) {
     throw new Error("尚未配置代理地址");
   }
-  const response = await fetch(aiConfig.endpoint, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
-  if (!response.ok) {
-    throw new Error(`请求失败：${response.status}`);
+  const errors = [];
+  for (const endpoint of endpoints) {
+    try {
+      return await fetchAiEndpoint(endpoint, payload);
+    } catch (error) {
+      errors.push(`${endpoint}: ${error.message}`);
+    }
   }
-  return response.json();
+  throw new Error(`AI 代理暂时无法访问。${errors.join("；")}`);
+}
+
+async function fetchAiEndpoint(endpoint, payload) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), aiConfig.timeoutMs || 20000);
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      const detail = await response.text();
+      throw new Error(`请求失败：${response.status}${detail ? `，${detail.slice(0, 120)}` : ""}`);
+    }
+    return response.json();
+  } catch (error) {
+    if (error.name === "AbortError") {
+      throw new Error("请求超时，请检查当前网络是否能访问 AI 代理");
+    }
+    throw error;
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 function mockAiExplanation(question, answer) {

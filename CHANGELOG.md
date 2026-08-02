@@ -14,6 +14,11 @@
 更新：
 
 - 前端 AI 解题已切换到 Cloudflare Worker 代理。
+- AI 请求支持多个代理地址和超时提示，方便后续接入大陆可访问代理。
+- 新增 `docs/MAINLAND_AI_PROXY.md` 大陆网络代理方案说明。
+- 新增 EdgeOne Pages Function 代理代码和部署文档，用于大陆网络备用主链路。
+- 前端已接入 EdgeOne 代理，并将 Cloudflare Worker 保留为备用。
+- 前端已接入腾讯云 CloudBase HTTP 网关，作为大陆网络主代理。
 
 ## v1.1 - 2026-08-02
 
