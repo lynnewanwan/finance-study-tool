@@ -290,6 +290,53 @@ h1 {
   line-height: 1.7;
 }
 
+.ai-panel {
+  margin-top: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfaf5;
+}
+
+.ai-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding: 16px;
+}
+
+.ai-panel-head h4 {
+  margin-bottom: 0;
+}
+
+.ai-content {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  line-height: 1.7;
+}
+
+.ai-block {
+  display: grid;
+  gap: 6px;
+}
+
+.ai-block strong {
+  color: var(--brand);
+}
+
+.ai-example {
+  border-left: 4px solid var(--brand-2);
+  padding: 12px 14px;
+  background: #fff6ef;
+}
+
+.ai-example ol {
+  margin: 8px 0 0;
+  padding-left: 22px;
+}
+
 .footer-actions {
   display: flex;
   justify-content: flex-end;
@@ -345,5 +392,11 @@ h1 {
 
   .result-grid {
     grid-template-columns: 1fr;
+  }
+
+  .ai-panel-head,
+  .footer-actions {
+    align-items: stretch;
+    flex-direction: column;
   }
 }
