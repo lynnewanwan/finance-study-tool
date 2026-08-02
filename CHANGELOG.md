@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.2 - 2026-08-02
+
+新增：
+
+- 新增“AI 解题”面板。
+- 答题后可点击“生成 AI 解题”。
+- 默认使用本地 mock 数据展示核心知识点、解题思路、易错提醒和同类例题。
+- 定义前端 AI 请求 payload 和返回结构。
+- 新增 Cloudflare Worker + DeepSeek API 代理模板。
+- 新增 `docs/AI_BACKEND_SETUP.md` 后端配置说明。
+
+更新：
+
+- 前端 AI 解题已切换到 Cloudflare Worker 代理。
+
 ## v1.1 - 2026-08-02
 
 新增：
