@@ -373,7 +373,7 @@ h1 {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 840px) {
