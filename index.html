@@ -3,17 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>中级财管刷题诊断</title>
+    <title>中级会计刷题诊断</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="shell">
+    <main id="subjectLanding" class="landing">
+      <section class="landing-card panel">
+        <p class="eyebrow">Exam Learning System</p>
+        <h1>中级会计刷题诊断台</h1>
+        <p class="subtle">先选择科目，再进入对应的刷题、错题和 AI 解题界面。财务管理和经济法使用同一套练习引擎，但学习记录按科目分别保存。</p>
+        <div id="landingSubjectCards" class="landing-subject-cards">
+          <button class="landing-subject-card" data-subject="financial_management" type="button">
+            <span class="card-eyebrow">中级会计 · 财务管理</span>
+            <strong>财务管理</strong>
+            <span class="card-desc">基于 2022-2025 财务管理真题单选题，进入摸底测试、薄弱点强化、错题复习和 AI 解题。</span>
+          </button>
+          <button class="landing-subject-card" data-subject="economic_law" type="button">
+            <span class="card-eyebrow">中级会计 · 经济法</span>
+            <strong>经济法</strong>
+            <span class="card-desc">进入经济法刷题诊断，按 2026 教材目录组织知识点，支持标准解析和 AI 解题。</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <main id="appShell" class="shell hidden">
       <aside class="panel sidebar">
         <div>
-          <p class="eyebrow">中级会计 · 财务管理</p>
-          <h1>刷题诊断台</h1>
-          <p class="subtle">基于 2023-2025 真题单选题，本地保存答题记录。</p>
+          <button id="backToSubjects" class="ghost back-button">← 返回科目选择</button>
+          <p id="subjectEyebrow" class="eyebrow">中级会计</p>
+          <h1 id="appTitle">刷题诊断台</h1>
+          <p id="subjectIntro" class="subtle">选择科目后开始摸底、强化和错题复习，本地保存答题记录。</p>
         </div>
+
+
+        <section id="migrationNotice" class="migration-notice hidden">
+          <strong>检测到旧版财务管理记录</strong>
+          <p>可以将旧版答题和错题记录迁移到当前财务管理科目下。</p>
+          <button id="migrateLegacyData" type="button">迁移旧版记录</button>
+        </section>
 
         <section class="stats">
           <div>
@@ -40,7 +68,8 @@
           <button id="startDiagnostic" class="primary">开始 30 题摸底</button>
           <button id="startPractice">薄弱点强化</button>
           <button id="reviewWrong">复习错题</button>
-          <button id="resetData" class="ghost">清空本地记录</button>
+          <button id="exportData" class="ghost">导出学习记录</button>
+          <button id="resetData" class="ghost">清空本科记录</button>
         </section>
       </aside>
 
@@ -58,6 +87,7 @@
 
         <article id="questionView" class="panel question hidden">
           <div class="meta">
+            <span id="subjectBadge"></span>
             <span id="topicBadge"></span>
             <span id="sourceBadge"></span>
           </div>
@@ -84,8 +114,8 @@
         </article>
 
         <article id="emptyView" class="panel empty">
-          <h3>先做一套摸底题</h3>
-          <p>30 道单选题可以在工作日 1 小时内完成。中途离开会自动保存进度，下次打开默认继续；也可以随时结束本次作答并保存已完成题目。</p>
+          <h3>选择一个练习模式</h3>
+          <p>30 道摸底题可以在工作日 1 小时内完成。中途离开会自动保存进度，下次进入本科目默认继续；也可以随时结束本次作答并保存已完成题目。</p>
         </article>
 
         <article id="resultView" class="panel result hidden">
@@ -99,6 +129,7 @@
       </section>
     </main>
 
+    <script src="./questions-data.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

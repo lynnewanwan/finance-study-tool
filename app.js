@@ -1,5 +1,29 @@
+const subjects = {
+  financial_management: {
+    id: "financial_management",
+    name: "财务管理",
+    eyebrow: "中级会计 · 财务管理",
+    intro: "基于 2022-2025 财务管理真题单选题，进入摸底测试、薄弱点强化、错题复习和 AI 解题。",
+    storageKey: "finance-study-tool-v1:financial_management",
+    legacyStorageKey: "finance-study-tool-v1",
+    aiProfile: "financial_management",
+    topics: ["财务管理基础", "预算管理", "筹资管理", "投资管理", "营运资金管理", "成本管理", "收入与分配管理", "财务分析与评价", "其他综合"],
+  },
+  economic_law: {
+    id: "economic_law",
+    name: "经济法",
+    eyebrow: "中级会计 · 经济法",
+    intro: "按 2026 教材目录组织知识树，基于历年真题单选题进行摸底和错题复习。",
+    storageKey: "finance-study-tool-v1:economic_law",
+    aiProfile: "economic_law",
+    topics: ["总论", "公司法律制度", "合伙企业法律制度", "物权法律制度", "合同法律制度", "金融法律制度", "财政法律制度", "其他综合"],
+  },
+};
+
 const state = {
+  allQuestions: [],
   questions: [],
+  subjectId: "",
   session: [],
   current: 0,
   selected: "",
@@ -8,20 +32,25 @@ const state = {
   sessionId: "",
 };
 
-const storageKey = "finance-study-tool-v1";
+const cloudBaseEndpoint = "https://finance-study-ai-d3eve8912af2b1e-1462298552.ap-shanghai.app.tcloudbase.com/explain";
+const cloudflareEndpoint = "https://finance-study-ai-proxy.lynnewanwan.workers.dev/";
 const isEdgeOneHost = location.hostname.endsWith(".edgeone.cool");
 const aiConfig = {
-  endpoints: isEdgeOneHost
-    ? ["/api/explain", "https://finance-study-ai-proxy.lynnewanwan.workers.dev/"]
-    : [
-        "https://finance-study-ai-d3eve8912af2b1e-1462298552.ap-shanghai.app.tcloudbase.com/explain",
-        "https://finance-study-ai-proxy.lynnewanwan.workers.dev/",
-      ],
+  endpoints: isEdgeOneHost ? ["/api/explain", cloudBaseEndpoint, cloudflareEndpoint] : [cloudBaseEndpoint, cloudflareEndpoint],
   useMock: false,
   timeoutMs: 20000,
 };
 
 const els = {
+  subjectLanding: document.querySelector("#subjectLanding"),
+  appShell: document.querySelector("#appShell"),
+  landingSubjectCards: document.querySelector("#landingSubjectCards"),
+  backToSubjects: document.querySelector("#backToSubjects"),
+  subjectEyebrow: document.querySelector("#subjectEyebrow"),
+  appTitle: document.querySelector("#appTitle"),
+  subjectIntro: document.querySelector("#subjectIntro"),
+  migrationNotice: document.querySelector("#migrationNotice"),
+  migrateLegacyData: document.querySelector("#migrateLegacyData"),
   totalDone: document.querySelector("#totalDone"),
   accuracy: document.querySelector("#accuracy"),
   bankStats: document.querySelector("#bankStats"),
@@ -29,6 +58,7 @@ const els = {
   startDiagnostic: document.querySelector("#startDiagnostic"),
   startPractice: document.querySelector("#startPractice"),
   reviewWrong: document.querySelector("#reviewWrong"),
+  exportData: document.querySelector("#exportData"),
   resetData: document.querySelector("#resetData"),
   modeLabel: document.querySelector("#modeLabel"),
   sessionTitle: document.querySelector("#sessionTitle"),
@@ -37,6 +67,7 @@ const els = {
   questionView: document.querySelector("#questionView"),
   emptyView: document.querySelector("#emptyView"),
   resultView: document.querySelector("#resultView"),
+  subjectBadge: document.querySelector("#subjectBadge"),
   topicBadge: document.querySelector("#topicBadge"),
   sourceBadge: document.querySelector("#sourceBadge"),
   questionStem: document.querySelector("#questionStem"),
@@ -53,16 +84,80 @@ const els = {
   adviceList: document.querySelector("#adviceList"),
 };
 
+function currentSubject() {
+  return subjects[state.subjectId] || subjects.financial_management;
+}
+
+function storageKey() {
+  return currentSubject().storageKey;
+}
+
+const migrationVersion = "dual-subject-v1";
+
+function migrationKey(subject) {
+  return `${subject.storageKey}:migrationVersion`;
+}
+
+function migrateLegacyProgress() {
+  const subject = currentSubject();
+  if (!subject.legacyStorageKey) return;
+  const key = migrationKey(subject);
+  if (localStorage.getItem(key) === migrationVersion) return;
+  const legacy = localStorage.getItem(subject.legacyStorageKey);
+  const current = localStorage.getItem(subject.storageKey);
+  if (legacy && !current) {
+    localStorage.setItem(subject.storageKey, legacy);
+  }
+  localStorage.setItem(key, migrationVersion);
+}
+
+function hasLegacyProgressToMigrate() {
+  const subject = currentSubject();
+  if (!subject.legacyStorageKey) return false;
+  const legacy = localStorage.getItem(subject.legacyStorageKey);
+  if (!legacy) return false;
+  const current = loadProgressForSubject(subject);
+  return !current.attempts?.length && !current.activeSession;
+}
+
+function renderMigrationNotice() {
+  if (!els.migrationNotice) return;
+  els.migrationNotice.classList.toggle("hidden", !hasLegacyProgressToMigrate());
+}
+
+function migrateLegacyDataManually() {
+  const subject = currentSubject();
+  if (!subject.legacyStorageKey) return;
+  const legacy = localStorage.getItem(subject.legacyStorageKey);
+  if (!legacy) {
+    alert("没有检测到旧版记录。");
+    renderMigrationNotice();
+    return;
+  }
+  const current = loadProgressForSubject(subject);
+  if ((current.attempts?.length || 0) > 0 || current.activeSession) {
+    alert("当前科目已经有学习记录，为避免覆盖，未执行迁移。");
+    renderMigrationNotice();
+    return;
+  }
+  localStorage.setItem(subject.storageKey, legacy);
+  localStorage.setItem(migrationKey(subject), migrationVersion);
+  renderSidebar();
+  renderMigrationNotice();
+  alert("旧版财务管理记录已迁移。");
+}
+
 function loadProgress() {
+  migrateLegacyProgress();
   try {
-    return JSON.parse(localStorage.getItem(storageKey)) || { attempts: [] };
+    return JSON.parse(localStorage.getItem(storageKey())) || { attempts: [] };
   } catch {
     return { attempts: [] };
   }
 }
 
 function saveProgress(progress) {
-  localStorage.setItem(storageKey, JSON.stringify(progress));
+  localStorage.setItem(storageKey(), JSON.stringify(progress));
 }
 
 function loadDraft() {
@@ -79,6 +174,7 @@ function saveDraft() {
   const progress = loadProgress();
   progress.activeSession = {
     id: state.sessionId,
+    subjectId: state.subjectId,
     mode: state.mode,
     questionIds: state.session.map((question) => question.id),
     current: state.current,
@@ -104,7 +200,7 @@ function commitSession() {
   );
   const attempts = state.answers
     .filter((answer) => !committedIds.has(answer.questionId))
-    .map((answer) => ({ ...answer, sessionId, at: submittedAt }));
+    .map((answer) => ({ ...answer, subjectId: state.subjectId, sessionId, at: submittedAt }));
   progress.attempts.push(...attempts);
   delete progress.activeSession;
   saveProgress(progress);
@@ -113,6 +209,10 @@ function commitSession() {
 
 function shuffle(items) {
   return [...items].sort(() => Math.random() - 0.5);
+}
+
+function activeQuestions() {
+  return state.questions;
 }
 
 function topicStats(attempts = loadProgress().attempts) {
@@ -126,6 +226,105 @@ function topicStats(attempts = loadProgress().attempts) {
   return [...map.values()]
     .map((item) => ({ ...item, weakness: item.total ? item.wrong / item.total : 0 }))
     .sort((a, b) => b.weakness - a.weakness || b.total - a.total);
+}
+
+function renderSubjectCards() {
+  els.landingSubjectCards.innerHTML = Object.values(subjects)
+    .map((subject) => {
+      const count = state.allQuestions.filter((question) => (question.subjectId || normalizeSubjectId(question.subject)) === subject.id).length;
+      const progress = loadProgressForSubject(subject).attempts || [];
+      const draft = loadProgressForSubject(subject).activeSession;
+      const total = progress.length;
+      const correct = progress.filter((item) => item.correct).length;
+      const accuracy = total ? `${Math.round((correct / total) * 100)}%` : "尚未开始";
+      return `<button class="landing-subject-card" data-subject="${subject.id}">
+        <span class="card-eyebrow">${subject.eyebrow}</span>
+        <strong>${subject.name}</strong>
+        <span class="card-desc">${subject.intro}</span>
+      </button>`;
+    })
+    .join("");
+}
+
+function loadProgressForSubject(subject) {
+  try {
+    return JSON.parse(localStorage.getItem(subject.storageKey)) || { attempts: [] };
+  } catch {
+    return { attempts: [] };
+  }
+}
+
+function normalizeSubjectId(subjectName) {
+  if (subjectName === "经济法") return "economic_law";
+  return "financial_management";
+}
+
+function applySubject(subjectId, options = {}) {
+  const nextSubjectId = subjects[subjectId] ? subjectId : "financial_management";
+  state.subjectId = nextSubjectId;
+  localStorage.setItem("finance-study-current-subject", state.subjectId);
+  state.questions = state.allQuestions.filter((question) => (question.subjectId || normalizeSubjectId(question.subject)) === state.subjectId);
+  resetSessionView();
+  renderSidebar();
+  renderMigrationNotice();
+  const subject = currentSubject();
+  els.subjectLanding.classList.add("hidden");
+  els.appShell.classList.remove("hidden");
+  els.subjectEyebrow.textContent = subject.eyebrow;
+  els.appTitle.textContent = `${subject.name}刷题诊断台`;
+  els.subjectIntro.textContent = subject.intro;
+  els.modeLabel.textContent = subject.eyebrow;
+  els.sessionTitle.textContent = `${subject.name}：选择一个练习模式`;
+  if (!resumeDraft()) {
+    els.emptyView.classList.remove("hidden");
+  }
+}
+
+function showSubjectLanding() {
+  if (state.subjectId && loadDraft()) {
+    const ok = confirm("当前科目有未完成作答，返回科目选择不会删除草稿。确认返回？");
+    if (!ok) return;
+  }
+  resetSessionView();
+  state.subjectId = "";
+  state.questions = [];
+  els.appShell.classList.add("hidden");
+  els.subjectLanding.classList.remove("hidden");
+  renderSubjectCards();
+}
+
+function exportLearningData() {
+  const subject = currentSubject();
+  const payload = {
+    exportedAt: new Date().toISOString(),
+    appVersion: "dual-subject-v1",
+    subjectId: subject.id,
+    subjectName: subject.name,
+    storageKey: subject.storageKey,
+    progress: loadProgress(),
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `中级会计-${subject.name}-学习记录-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function resetSessionView() {
+  state.session = [];
+  state.current = 0;
+  state.answers = [];
+  state.selected = "";
+  state.mode = "idle";
+  state.sessionId = "";
+  els.questionView.classList.add("hidden");
+  els.resultView.classList.add("hidden");
+  els.emptyView.classList.remove("hidden");
+  updateProgress();
 }
 
 function renderSidebar() {
@@ -148,7 +347,7 @@ function renderSidebar() {
         `,
         )
         .join("")
-    : `<p class="subtle">完成摸底后，这里会出现需要优先补的知识点。</p>`;
+    : `<p class="subtle">完成${currentSubject().name}摸底后，这里会出现需要优先补的知识点。</p>`;
 }
 
 function renderBankStats() {
@@ -157,11 +356,11 @@ function renderBankStats() {
     public_web: "公开网页",
     ai_variant: "AI 变式题",
   };
-  const countByOrigin = state.questions.reduce((map, question) => {
+  const countByOrigin = activeQuestions().reduce((map, question) => {
     map[question.originType] = (map[question.originType] || 0) + 1;
     return map;
   }, {});
-  const verified = state.questions.filter((question) => question.verified).length;
+  const verified = activeQuestions().filter((question) => question.verified).length;
   const rows = Object.entries(countByOrigin).map(
     ([origin, count]) => `<div><span>${labels[origin] || origin}</span><strong>${count} 题</strong></div>`,
   );
@@ -171,7 +370,7 @@ function renderBankStats() {
 
 function pickDiagnostic() {
   const byTopic = new Map();
-  for (const question of shuffle(state.questions)) {
+  for (const question of shuffle(activeQuestions())) {
     const group = byTopic.get(question.topic) || [];
     group.push(question);
     byTopic.set(question.topic, group);
@@ -192,7 +391,7 @@ function pickPractice() {
     .slice(0, 3)
     .map((item) => item.topic);
   const wrongIds = new Set(attempts.filter((item) => !item.correct).map((item) => item.questionId));
-  const weighted = state.questions.flatMap((question) => {
+  const weighted = activeQuestions().flatMap((question) => {
     const weight = (weakTopics.includes(question.topic) ? 4 : 1) + (wrongIds.has(question.id) ? 3 : 0);
     return Array.from({ length: weight }, () => question);
   });
@@ -208,11 +407,14 @@ function pickPractice() {
 
 function pickWrong() {
   const wrongIds = new Set(loadProgress().attempts.filter((item) => !item.correct).map((item) => item.questionId));
-  return shuffle(state.questions.filter((question) => wrongIds.has(question.id))).slice(0, 20);
+  return shuffle(activeQuestions().filter((question) => wrongIds.has(question.id))).slice(0, 20);
 }
 
 function startSession(mode, questions) {
-  if (!questions.length) return;
+  if (!questions.length) {
+    alert("当前科目暂时没有可练习题目。");
+    return;
+  }
   if (loadDraft() && !confirm("当前有未完成作答，开始新练习会覆盖上次进度。确认继续？")) return;
   clearDraft();
   state.mode = mode;
@@ -224,7 +426,7 @@ function startSession(mode, questions) {
   els.emptyView.classList.add("hidden");
   els.resultView.classList.add("hidden");
   els.questionView.classList.remove("hidden");
-  els.modeLabel.textContent = mode === "diagnostic" ? "摸底测试" : mode === "wrong" ? "错题复习" : "强化练习";
+  els.modeLabel.textContent = `${currentSubject().name} · ${mode === "diagnostic" ? "摸底测试" : mode === "wrong" ? "错题复习" : "强化练习"}`;
   els.sessionTitle.textContent = mode === "diagnostic" ? "30 题快速诊断" : mode === "wrong" ? "集中处理错题" : "薄弱点优先训练";
   saveDraft();
   renderQuestion();
@@ -232,9 +434,11 @@ function startSession(mode, questions) {
 
 function renderQuestion() {
   const question = state.session[state.current];
+  if (!question) return;
   const savedAnswer = state.answers.find((answer) => answer.questionId === question.id);
   state.selected = savedAnswer?.selected || "";
-  els.topicBadge.textContent = question.topic;
+  els.subjectBadge.textContent = question.subject || currentSubject().name;
+  els.topicBadge.textContent = question.subtopic ? `${question.topic} · ${question.subtopic}` : question.topic;
   const originLabel = question.originType === "ai_variant" ? "AI 变式题" : question.originType === "public_web" ? "公开题源" : "本地真题";
   const verifyLabel = question.verified ? "已核验" : "待核验";
   els.sourceBadge.textContent = `${question.sourceYear || question.year} · ${originLabel} · ${verifyLabel}`;
@@ -262,10 +466,10 @@ function updateProgress() {
 
 function submitAnswer() {
   const question = state.session[state.current];
-  if (!state.selected) return;
+  if (!question || !state.selected) return;
   const correct = state.selected === question.answer;
   state.answers = state.answers.filter((answer) => answer.questionId !== question.id);
-  const answer = { questionId: question.id, topic: question.topic, selected: state.selected, answer: question.answer, correct };
+  const answer = { questionId: question.id, subjectId: state.subjectId, topic: question.topic, selected: state.selected, answer: question.answer, correct };
   state.answers.push(answer);
   saveDraft();
   renderAnsweredState(question, answer);
@@ -301,9 +505,17 @@ function currentAnsweredQuestion() {
 }
 
 function buildAiPayload(question, answer) {
+  const subject = subjects[question.subjectId] || currentSubject();
+  const promptHint = subject.id === "economic_law"
+    ? "请按经济法学习方式解释：指出法条关键词、判断路径、例外规则和易混点；同类例题用小案例单选题。"
+    : "请按财务管理学习方式解释：指出公式、变量、判断模型和易错计算口径；同类例题保持单选题。";
   return {
-    subject: question.subject || "财务管理",
+    subject: question.subject || subject.name,
+    subjectId: subject.id,
+    aiProfile: subject.aiProfile,
+    promptHint,
     topic: question.topic,
+    subtopic: question.subtopic || "",
     question: {
       id: question.id,
       stem: question.stem,
@@ -395,6 +607,15 @@ async function fetchAiEndpoint(endpoint, payload) {
 function mockAiExplanation(question, answer) {
   const selectedText = question.options[answer.selected] || "未选择";
   const correctText = question.options[question.answer] || "";
+  if ((question.subjectId || state.subjectId) === "economic_law") {
+    return Promise.resolve({
+      knowledgePoint: `${question.topic}：先锁定题目考查的法律关系，再判断规则、例外和关键词。`,
+      solvingApproach: `本题正确选项是 ${question.answer}「${correctText}」。对比你选择的 ${answer.selected}「${selectedText}」，重点看题干中的主体、时间、行为效力和例外情形。`,
+      commonMistake: answer.correct ? "经济法题答对后也要复盘关键词，很多错项只改一个主体、期限或程序。" : "常见错误是只凭生活经验判断，没有回到法条规则；尤其要警惕“应当/可以/不得/除外”等词。",
+      example: buildMockExample(question),
+      isMock: true,
+    });
+  }
   return Promise.resolve({
     knowledgePoint: `${question.topic}：识别题干中的关键变量，先判断考查的是概念、公式还是决策规则。`,
     solvingApproach: `本题应先锁定正确选项 ${question.answer}。对比你选择的 ${answer.selected}「${selectedText}」和正确项「${correctText}」，再回到原解析中的计算或判断依据。`,
@@ -407,6 +628,19 @@ function mockAiExplanation(question, answer) {
 }
 
 function buildMockExample(question) {
+  if ((question.subjectId || state.subjectId) === "economic_law") {
+    return {
+      stem: `同类例题：围绕「${question.topic}」设置一个小案例，下列说法正确的是（ ）。`,
+      options: {
+        A: "先识别主体和法律行为，再判断规则是否适用",
+        B: "只要当事人协商一致，所有限制性规定均可排除",
+        C: "题干出现期限时，一律从合同签订日开始计算",
+        D: "经济法题只需要记结论，不需要看例外规则",
+      },
+      answer: "A",
+      explanation: "经济法题通常先看主体、行为、时间和程序，再判断法律规则及例外。",
+    };
+  }
   return {
     stem: `同类例题：围绕「${question.topic}」重新设置条件后，下列说法正确的是（ ）。`,
     options: {
@@ -487,7 +721,7 @@ function showResult(endedEarly) {
 function resumeDraft() {
   const draft = loadDraft();
   if (!draft?.questionIds?.length) return false;
-  const questionById = new Map(state.questions.map((question) => [question.id, question]));
+  const questionById = new Map(activeQuestions().map((question) => [question.id, question]));
   const questions = draft.questionIds.map((id) => questionById.get(id)).filter(Boolean);
   if (!questions.length) {
     clearDraft();
@@ -502,11 +736,20 @@ function resumeDraft() {
   els.emptyView.classList.add("hidden");
   els.resultView.classList.add("hidden");
   els.questionView.classList.remove("hidden");
-  els.modeLabel.textContent = state.mode === "diagnostic" ? "继续摸底" : state.mode === "wrong" ? "继续错题" : "继续强化";
+  els.modeLabel.textContent = `${currentSubject().name} · ${state.mode === "diagnostic" ? "继续摸底" : state.mode === "wrong" ? "继续错题" : "继续强化"}`;
   els.sessionTitle.textContent = "继续上次作答";
   renderQuestion();
   return true;
 }
+
+els.landingSubjectCards.addEventListener("click", (event) => {
+  const card = event.target.closest(".landing-subject-card");
+  if (!card) return;
+  applySubject(card.dataset.subject);
+});
+
+els.backToSubjects.addEventListener("click", showSubjectLanding);
+els.migrateLegacyData.addEventListener("click", migrateLegacyDataManually);
 
 els.options.addEventListener("click", (event) => {
   const button = event.target.closest(".option");
@@ -522,30 +765,39 @@ els.explainWithAi.addEventListener("click", explainCurrentQuestion);
 els.endSession.addEventListener("click", endSession);
 els.startDiagnostic.addEventListener("click", () => startSession("diagnostic", pickDiagnostic()));
 els.startPractice.addEventListener("click", () => startSession("practice", pickPractice()));
+els.exportData.addEventListener("click", exportLearningData);
+
 els.reviewWrong.addEventListener("click", () => {
   const questions = pickWrong();
   if (questions.length) startSession("wrong", questions);
+  else alert(`当前还没有${currentSubject().name}错题。`);
 });
 els.resetData.addEventListener("click", () => {
-  if (confirm("确认清空本地答题记录？")) {
-    localStorage.removeItem(storageKey);
-    state.session = [];
-    state.current = 0;
-    state.answers = [];
-    state.selected = "";
-    state.mode = "idle";
-    state.sessionId = "";
-    els.questionView.classList.add("hidden");
-    els.resultView.classList.add("hidden");
-    els.emptyView.classList.remove("hidden");
+  if (confirm(`确认清空${currentSubject().name}本地答题记录？`)) {
+    localStorage.removeItem(storageKey());
+    resetSessionView();
     renderSidebar();
+    renderMigrationNotice();
   }
 });
 
-fetch("./questions.json")
-  .then((response) => response.json())
-  .then((questions) => {
-    state.questions = questions;
-    renderSidebar();
-    resumeDraft();
-  });
+function initializeQuestions(questions) {
+  state.allQuestions = questions.map((question) => ({
+    ...question,
+    subjectId: question.subjectId || normalizeSubjectId(question.subject),
+  }));
+  renderSubjectCards();
+  els.subjectLanding.classList.remove("hidden");
+  els.appShell.classList.add("hidden");
+}
+
+if (Array.isArray(window.FINANCE_STUDY_QUESTIONS)) {
+  initializeQuestions(window.FINANCE_STUDY_QUESTIONS);
+} else {
+  fetch("./questions.json")
+    .then((response) => response.json())
+    .then(initializeQuestions)
+    .catch((error) => {
+      els.landingSubjectCards.innerHTML = `<p class="subtle">题库加载失败：${error.message}。如果是本地预览，请确认 questions-data.js 与 index.html 在同一目录。</p>`;
+    });
+}

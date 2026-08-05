@@ -1,4 +1,4 @@
-[
+window.FINANCE_STUDY_QUESTIONS = [
   {
     "id": "fm-2023-212225",
     "year": 2023,
@@ -3835,4 +3835,4 @@
     "variantOf": "",
     "reviewStatus": "needs_review"
   }
-]
+];
