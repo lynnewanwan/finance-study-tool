@@ -1,0 +1,36 @@
+window.FINANCE_STUDY_QUALITY_RULES = {
+  "version": "2.0-draft",
+  "practiceAllowedStatuses": [
+    "verified",
+    "approved"
+  ],
+  "statusRules": {
+    "verified": "来自真题或教材资料，且基础质检通过。",
+    "approved": "非官方题源或模拟题，经基础质检后可进入练习。",
+    "needs_review": "存在结构、数字单位、答案或重复风险，默认不进入练习。",
+    "rejected": "确认不适合进入练习。"
+  },
+  "numericIntegrityRules": {
+    "goal": "保留所有“数字+单位/日期/比例/年龄/期限”结构，不再用删除数字行的方式处理。",
+    "examples": [
+      "2025年6月1日",
+      "2025年7月1日",
+      "19周岁",
+      "21岁",
+      "30日内",
+      "10万元",
+      "100万元",
+      "1月1日",
+      "900万票",
+      "6个月",
+      "10%"
+    ],
+    "detects": [
+      "年月日数字丢失",
+      "年龄或周岁数字丢失",
+      "金额单位前数字丢失",
+      "期限日数丢失",
+      "选项被拆成空白或只有单位"
+    ]
+  }
+};

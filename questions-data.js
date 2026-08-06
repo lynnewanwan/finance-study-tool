@@ -25,7 +25,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212274",
@@ -53,7 +74,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212234",
@@ -81,7 +123,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch03",
+    "sectionId": "fm-ch03-sec-general",
+    "knowledgePointId": "fm-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch03",
+        "sectionId": "fm-ch03-sec-general",
+        "knowledgePointId": "fm-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212310",
@@ -109,14 +172,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch10",
+    "sectionId": "fm-ch10-sec-general",
+    "knowledgePointId": "fm-ch10-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch10",
+        "sectionId": "fm-ch10-sec-general",
+        "knowledgePointId": "fm-ch10-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212680",
     "year": 2023,
     "sourceNumber": 5,
     "type": "single",
-    "stem": "btclass.cn 1 2023年 中级财管真题 某公司生产销售X产品，产销量为2万件，消费税税率为5%，单位产品成本为50元/件，期间费用为10万 元，该公司采用全部成本费用加成定价法，成本利润率要求达到20%，则X产品单价为()元。",
+    "stem": "某公司生产销售X产品，产销量为2万件，消费税税率为5%，单位产品成本为50元/件，期间费用为10万 元，该公司采用全部成本费用加成定价法，成本利润率要求达到20%，则X产品单价为()元。",
     "options": {
       "A": "69.47",
       "B": "62.86",
@@ -137,7 +221,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212692",
@@ -165,7 +270,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212687",
@@ -193,7 +319,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch07",
+    "sectionId": "fm-ch07-sec-general",
+    "knowledgePointId": "fm-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch07",
+        "sectionId": "fm-ch07-sec-general",
+        "knowledgePointId": "fm-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212136",
@@ -221,7 +368,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212926",
@@ -236,7 +404,7 @@ window.FINANCE_STUDY_QUESTIONS = [
       "D": "预测期利润留存额"
     },
     "answer": "D",
-    "explanation": "btclass.cn 2 2023年 中级财管真题 销售百分比法下:外部融资需求量=资金需求增加额-预测期利润留存额，选项D正确。",
+    "explanation": "销售百分比法下:外部融资需求量=资金需求增加额-预测期利润留存额，选项D正确。",
     "topic": "筹资管理",
     "difficulty": "normal",
     "subject": "财务管理",
@@ -249,7 +417,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212226",
@@ -277,7 +466,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212227",
@@ -305,7 +515,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch03",
+    "sectionId": "fm-ch03-sec-general",
+    "knowledgePointId": "fm-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch03",
+        "sectionId": "fm-ch03-sec-general",
+        "knowledgePointId": "fm-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212229",
@@ -333,7 +564,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch07",
+    "sectionId": "fm-ch07-sec-general",
+    "knowledgePointId": "fm-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch07",
+        "sectionId": "fm-ch07-sec-general",
+        "knowledgePointId": "fm-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212230",
@@ -361,14 +613,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212231",
     "year": 2023,
     "sourceNumber": 14,
     "type": "single",
-    "stem": "根据债券估值基本模型，若不考虑其他因素的影响，下列表述错误的是()。 btclass.cn 3 2023年 中级财管真题",
+    "stem": "根据债券估值基本模型，若不考虑其他因素的影响，下列表述错误的是()。",
     "options": {
       "A": "债券的⾯值越⼤，债券的价值越⼤",
       "B": "折现率越⼤，债券的价值越⼤",
@@ -389,7 +662,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212232",
@@ -417,7 +711,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212271",
@@ -445,7 +760,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212272",
@@ -473,7 +809,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212270",
@@ -488,7 +845,7 @@ window.FINANCE_STUDY_QUESTIONS = [
       "D": "8.24%"
     },
     "answer": "D",
-    "explanation": "年实际利率= (1+8%/4) ^4-1=8.24%。 btclass.cn 4 2023年 中级财管真题",
+    "explanation": "年实际利率= (1+8%/4) ^4-1=8.24%。",
     "topic": "筹资管理",
     "difficulty": "normal",
     "subject": "财务管理",
@@ -501,7 +858,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212308",
@@ -529,7 +907,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch02",
+    "sectionId": "fm-ch02-sec-general",
+    "knowledgePointId": "fm-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch02",
+        "sectionId": "fm-ch02-sec-general",
+        "knowledgePointId": "fm-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2023-212309",
@@ -557,7 +956,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch01",
+    "sectionId": "fm-ch01-sec-extra-general",
+    "knowledgePointId": "fm-ch01-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch01",
+        "sectionId": "fm-ch01-sec-extra-general",
+        "knowledgePointId": "fm-ch01-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226760",
@@ -585,7 +1005,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226820",
@@ -613,7 +1054,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch03",
+    "sectionId": "fm-ch03-sec-general",
+    "knowledgePointId": "fm-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch03",
+        "sectionId": "fm-ch03-sec-general",
+        "knowledgePointId": "fm-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226821",
@@ -641,7 +1103,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch07",
+    "sectionId": "fm-ch07-sec-general",
+    "knowledgePointId": "fm-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch07",
+        "sectionId": "fm-ch07-sec-general",
+        "knowledgePointId": "fm-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226822",
@@ -669,14 +1152,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226825",
     "year": 2024,
     "sourceNumber": 5,
     "type": "single",
-    "stem": "关于优先股分类中，针对参与优先股和⾮参与优先股，下列表述正确的有（ ）。 btclass.cn 1 2024年 中级财管真题",
+    "stem": "关于优先股分类中，针对参与优先股和⾮参与优先股，下列表述正确的有（ ）。",
     "options": {
       "A": "⾮参与优先股股东无权同普通股股东一起参与剩余财产清偿",
       "B": "⾮参与优先股股东无权同普通股股东参与任何重⼤事项决策",
@@ -697,7 +1201,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226831",
@@ -725,7 +1250,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226834",
@@ -753,7 +1299,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch03",
+    "sectionId": "fm-ch03-sec-general",
+    "knowledgePointId": "fm-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch03",
+        "sectionId": "fm-ch03-sec-general",
+        "knowledgePointId": "fm-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226977",
@@ -781,7 +1348,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-227170",
@@ -809,7 +1397,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch01",
+    "sectionId": "fm-ch01-sec-extra-general",
+    "knowledgePointId": "fm-ch01-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch01",
+        "sectionId": "fm-ch01-sec-extra-general",
+        "knowledgePointId": "fm-ch01-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226759",
@@ -837,7 +1446,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226761",
@@ -865,7 +1495,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch07",
+    "sectionId": "fm-ch07-sec-general",
+    "knowledgePointId": "fm-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch07",
+        "sectionId": "fm-ch07-sec-general",
+        "knowledgePointId": "fm-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226797",
@@ -893,7 +1544,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226799",
@@ -908,7 +1580,7 @@ window.FINANCE_STUDY_QUESTIONS = [
       "D": "生产预算"
     },
     "answer": "C",
-    "explanation": "专⻔决策预算主要是长期投资预算（⼜称资本支出预算），通常是指与项目投资决策相关的专⻔预算。 btclass.cn 3 2024年 中级财管真题",
+    "explanation": "专⻔决策预算主要是长期投资预算（⼜称资本支出预算），通常是指与项目投资决策相关的专⻔预算。",
     "topic": "预算管理",
     "difficulty": "normal",
     "subject": "财务管理",
@@ -921,7 +1593,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch03",
+    "sectionId": "fm-ch03-sec-general",
+    "knowledgePointId": "fm-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch03",
+        "sectionId": "fm-ch03-sec-general",
+        "knowledgePointId": "fm-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226800",
@@ -949,7 +1642,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-226801",
@@ -977,7 +1691,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-230391",
@@ -1005,7 +1740,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-230393",
@@ -1020,7 +1776,7 @@ window.FINANCE_STUDY_QUESTIONS = [
       "D": "恶意增加公司资本"
     },
     "answer": "D",
-    "explanation": "⼤股东侵害中小股东利益的主要形式包括：①利用关联交易转移上市公司的资产(选项B)。②⾮法占用上市 公司巨额资金，或以上市公司的名义进⾏担保和恶意筹资(选项C)。③通过发布虚假信息进⾏股价操纵，欺 骗中小股东。④为⼤股东委派的高管支付不合理的报酬及特殊津贴（选项A）。⑤采用不合理的股利政策， btclass.cn 4 2024年 中级财管真题 掠夺中小股东的既得利益。",
+    "explanation": "⼤股东侵害中小股东利益的主要形式包括：①利用关联交易转移上市公司的资产(选项B)。②⾮法占用上市 公司巨额资金，或以上市公司的名义进⾏担保和恶意筹资(选项C)。③通过发布虚假信息进⾏股价操纵，欺 骗中小股东。④为⼤股东委派的高管支付不合理的报酬及特殊津贴（选项A）。⑤采用不合理的股利政策， 掠夺中小股东的既得利益。",
     "topic": "筹资管理",
     "difficulty": "normal",
     "subject": "财务管理",
@@ -1033,7 +1789,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-230394",
@@ -1061,7 +1838,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-230395",
@@ -1089,7 +1887,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch10",
+    "sectionId": "fm-ch10-sec-general",
+    "knowledgePointId": "fm-ch10-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch10",
+        "sectionId": "fm-ch10-sec-general",
+        "knowledgePointId": "fm-ch10-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2024-230396",
@@ -1117,7 +1936,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234427",
@@ -1145,7 +1985,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234428",
@@ -1173,7 +2034,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234429",
@@ -1201,7 +2083,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234430",
@@ -1229,7 +2132,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234431",
@@ -1244,7 +2168,7 @@ window.FINANCE_STUDY_QUESTIONS = [
       "D": "6.67"
     },
     "answer": "B",
-    "explanation": "假设保本点单价为P元，则有25*P*40%-100=0，解得：保本点单价P=100/(25*40%)=10(元)。 btclass.cn 1 2025年中级财管真题（9.6）（考生回忆版，实时更新）",
+    "explanation": "假设保本点单价为P元，则有25*P*40%-100=0，解得：保本点单价P=100/(25*40%)=10(元)。 （9.6）（考生回忆版，实时更新）",
     "topic": "成本管理",
     "difficulty": "normal",
     "subject": "财务管理",
@@ -1257,7 +2181,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234432",
@@ -1285,7 +2230,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch03",
+    "sectionId": "fm-ch03-sec-general",
+    "knowledgePointId": "fm-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch03",
+        "sectionId": "fm-ch03-sec-general",
+        "knowledgePointId": "fm-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234433",
@@ -1313,7 +2279,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234434",
@@ -1341,7 +2328,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234435",
@@ -1369,7 +2377,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234436",
@@ -1397,7 +2426,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2025-234437",
@@ -1425,7 +2475,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "variantOf": "",
     "reviewStatus": "verified",
     "subjectId": "financial_management",
-    "subtopic": ""
+    "subtopic": "",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212456",
@@ -1453,7 +2524,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch01",
+    "sectionId": "el-ch01-sec-general",
+    "knowledgePointId": "el-ch01-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch01",
+        "sectionId": "el-ch01-sec-general",
+        "knowledgePointId": "el-ch01-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212455",
@@ -1481,22 +2573,43 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212458",
     "year": 2023,
     "sourceNumber": 4,
     "type": "single",
-    "stem": "根据公司法律制度的规定，关于有限责任公司设⽴，下列表述正确的是( )。设⽴时的股东为设⽴公司从事的⺠事活动，其法律后果由该股东承受",
+    "stem": "根据公司法律制度的规定，关于有限责任公司设立，下列表述正确的是（ ）。",
     "options": {
-      "A": "应当由董事共同制定公司章程",
-      "B": "均为发起设⽴",
-      "C": "全体股东认缴的出资额由股东按照公司章程的规定⾃公司成⽴之⽇起",
-      "D": "年内缴⾜"
+      "A": "设立时的股东为设立公司从事的民事活动，其法律后果由该股东承受",
+      "B": "应当由董事共同制定公司章程",
+      "C": "均为发起设立",
+      "D": "全体股东认缴的出资额由股东按照公司章程的规定自公司成立之日起3年内缴足"
     },
     "answer": "C",
-    "explanation": "①选项错误，有限责任公司设⽴时的股东为设⽴公司从事的⺠事活动，其法律后果由公司承受。公司未成⽴的，其法律后果由公司设⽴时的股东承受；设⽴时的股东为⼈以上的，享有连带债权，承担连带债务。②选项错误，设⽴有限责任公司，应当由股东共同制定公司章程。③选项正确，有限责任公司只能采⽤发起设⽴。④选项错误，有限责任公司认缴出资应当遵循诚实信⽤原则，全体股东认缴的出资额由股东按照公司章程的规定⾃公司成⽴之⽇起年内缴⾜。",
+    "explanation": "选项A错误，有限责任公司设立时的股东为设立公司从事的民事活动，其法律后果由公司承受；公司未成立的，其法律后果由公司设立时的股东承受，设立时的股东为2人以上的，享有连带债权，承担连带债务。选项B错误，设立有限责任公司，应当由股东共同制定公司章程。选项C正确，有限责任公司只能采用发起设立。选项D错误，全体股东认缴的出资额由股东按照公司章程的规定自公司成立之日起5年内缴足。",
     "topic": "公司法律制度",
     "subtopic": "",
     "difficulty": "normal",
@@ -1509,7 +2622,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212457",
@@ -1537,7 +2671,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-extra-general",
+    "knowledgePointId": "el-ch02-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-extra-general",
+        "knowledgePointId": "el-ch02-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212427",
@@ -1565,7 +2720,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212746",
@@ -1593,7 +2769,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212422",
@@ -1621,7 +2818,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212459",
@@ -1649,14 +2867,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch03",
+    "sectionId": "el-ch03-sec-general",
+    "knowledgePointId": "el-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch03",
+        "sectionId": "el-ch03-sec-general",
+        "knowledgePointId": "el-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212433",
     "year": 2023,
     "sourceNumber": 12,
     "type": "single",
-    "stem": "根据物权法律制度的规定，抵押物折价或者拍卖、变卖所得的价款，当事⼈没有约定的，按(   )顺序清偿。",
+    "stem": "根据物权法律制度的规定，抵押物折价或者拍卖、变卖所得的价款，当事⼈没有约定的，按( )顺序清偿。",
     "options": {
       "A": "实现抵押权的费⽤；主债权的利息；主债权",
       "B": "实现抵押权的费⽤；主债权；主债权的利息",
@@ -1677,7 +2916,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212461",
@@ -1705,7 +2965,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212743",
@@ -1733,14 +3014,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212742",
     "year": 2023,
     "sourceNumber": 15,
     "type": "single",
-    "stem": "⽗⺟为⼥⼉购买了以死亡为给付保险⾦条件的保险合同，投保时⼥⼉岁。之后⼥⼉为情⾃杀，此时在合同成⽴两年内。则保险公司应当( )。",
+    "stem": "⽗⺟为⼥⼉购买了以死亡为给付保险⾦条件的保险合同，投保时⼥⼉21岁。之后⼥⼉为情⾃杀，此时在合同成⽴两年内。则保险公司应当( )。",
     "options": {
       "A": "不承担给付保险⾦的责任，但退还保险单的现⾦价值",
       "B": "承担给付保险⾦的责任",
@@ -1748,7 +3050,7 @@ window.FINANCE_STUDY_QUESTIONS = [
       "D": "不承担给付保险⾦的责任，不退还现⾦价值"
     },
     "answer": "A",
-    "explanation": "选项正确，以被保险⼈死亡为给付保险⾦条件的合同，⾃合同成⽴或者合同效⼒恢复之⽇起年内，被保险⼈⾃杀的，保险⼈不承担给付保险⾦的责任，但被保险⼈⾃杀时为⽆⺠事⾏为能⼒⼈的除外。也就是说，如果保险合同成⽴或复效年后，被保险⼈⾃杀的，保险⼈应按合同约定给付保险⾦。保险⼈依照规定不承担给付保险⾦责任的，应当按照合同约定退还保险单的现⾦价值。在本题中，⼥⼉并⾮⽆⺠事⾏为能⼒⼈，在合同成⽴年内⾃杀，保险公司不承担给付保险⾦的责任。保险⼈依照前述规定不承担给付保险⾦责任的，应当按照合同约定退还保险单的现⾦价值。",
+    "explanation": "选项正确，以被保险⼈死亡为给付保险⾦条件的合同，⾃合同成⽴或者合同效⼒恢复之⽇起2年内，被保险⼈⾃杀的，保险⼈不承担给付保险⾦的责任，但被保险⼈⾃杀时为⽆⺠事⾏为能⼒⼈的除外。也就是说，如果保险合同成⽴或复效2年后，被保险⼈⾃杀的，保险⼈应按合同约定给付保险⾦。保险⼈依照规定不承担给付保险⾦责任的，应当按照合同约定退还保险单的现⾦价值。在本题中，⼥⼉并⾮⽆⺠事⾏为能⼒⼈，在合同成⽴2年内⾃杀，保险公司不承担给付保险⾦的责任。保险⼈依照前述规定不承担给付保险⾦责任的，应当按照合同约定退还保险单的现⾦价值。",
     "topic": "金融法律制度",
     "subtopic": "",
     "difficulty": "normal",
@@ -1761,7 +3063,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch06",
+    "sectionId": "el-ch06-sec-general",
+    "knowledgePointId": "el-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch06",
+        "sectionId": "el-ch06-sec-general",
+        "knowledgePointId": "el-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212749",
@@ -1789,7 +3112,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch01",
+    "sectionId": "el-ch01-sec-general",
+    "knowledgePointId": "el-ch01-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch01",
+        "sectionId": "el-ch01-sec-general",
+        "knowledgePointId": "el-ch01-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212428",
@@ -1817,7 +3161,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212511",
@@ -1845,7 +3210,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch06",
+    "sectionId": "el-ch06-sec-general",
+    "knowledgePointId": "el-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch06",
+        "sectionId": "el-ch06-sec-general",
+        "knowledgePointId": "el-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212418",
@@ -1873,7 +3259,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212467",
@@ -1901,7 +3308,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212513",
@@ -1929,7 +3357,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212425",
@@ -1957,7 +3406,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212512",
@@ -1985,7 +3455,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2023-212712",
@@ -2013,7 +3504,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226871",
@@ -2041,7 +3553,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch01",
+    "sectionId": "el-ch01-sec-general",
+    "knowledgePointId": "el-ch01-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch01",
+        "sectionId": "el-ch01-sec-general",
+        "knowledgePointId": "el-ch01-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226878",
@@ -2069,22 +3602,43 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226912",
     "year": 2024,
     "sourceNumber": 3,
     "type": "single",
-    "stem": "根据⾏政复议法的规定，下列关于申请⾏政复议的说法中，正确的是(  )。必须书⾯",
+    "stem": "根据行政复议法的规定，下列关于申请行政复议的说法中，正确的是（ ）。",
     "options": {
-      "A": "复议中可以起诉",
-      "B": "应当⾃知道或应当知道具体⾏政⾏为之⽇起",
-      "C": "⽇内申请⾏政复议",
-      "D": "对当场作出的⾏政处罚决定不服的，应当先议后诉"
+      "A": "必须书面",
+      "B": "复议中可以起诉",
+      "C": "应当自知道或应当知道具体行政行为之日起30日内申请行政复议",
+      "D": "对当场作出的行政处罚决定不服的，应当先议后诉"
     },
     "answer": "D",
-    "explanation": "年中级经济法真题①选项错误，申请⼈申请⾏政复议，可以书⾯申请，书⾯申请有困难的，也可以口头申请。②选项错误，公司、法⼈或者其他组织申请⾏政复议，⾏政复议机关已经依法受理的，在⾏政复议期间不得向⼈⺠法院提起⾏政诉讼。③选项错误，公司、法⼈或者其他组织认为⾏政⾏为侵犯其合法利益的，可以⾃知道或者应当知道该⾏政⾏为之⽇起⽇内提出⾏政复议申请，但是法律规定的申请期限超过⽇的除外。④选项正确，对当场作出的⾏政处罚决定不服的，申请⼈应当先向⾏政复议机关申请⾏政复议，对⾏政复议决定不服的，可以再依法向⼈⺠法院提起⾏政诉讼。",
+    "explanation": "申请人申请行政复议，可以书面申请，书面申请有困难的，也可以口头申请。行政复议机关已经依法受理的，在行政复议期间不得向人民法院提起行政诉讼。公民、法人或者其他组织认为行政行为侵犯其合法权益的，可以自知道或者应当知道该行政行为之日起60日内提出行政复议申请，但是法律规定的申请期限超过60日的除外。对当场作出的行政处罚决定不服的，申请人应当先向行政复议机关申请行政复议。",
     "topic": "公司法律制度",
     "subtopic": "",
     "difficulty": "normal",
@@ -2097,14 +3651,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226911",
     "year": 2024,
     "sourceNumber": 4,
     "type": "single",
-    "stem": "根据合伙法律制度的规定，甲合伙企业解散进⾏清算，则下列说法正确的是(  )。",
+    "stem": "根据合伙法律制度的规定，甲合伙企业解散进⾏清算，则下列说法正确的是( )。",
     "options": {
       "A": "清算⼈在清算期间应当清理债权债务",
       "B": "甲企业申请办理企业注销登记，⽆须向企业登记机关报送清算报告",
@@ -2125,7 +3700,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-228418",
@@ -2153,7 +3749,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch06",
+    "sectionId": "el-ch06-sec-extra-general",
+    "knowledgePointId": "el-ch06-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch06",
+        "sectionId": "el-ch06-sec-extra-general",
+        "knowledgePointId": "el-ch06-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226873",
@@ -2181,7 +3798,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226879",
@@ -2209,7 +3847,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226869",
@@ -2237,7 +3896,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226884",
@@ -2265,14 +3945,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch06",
+    "sectionId": "el-ch06-sec-extra-general",
+    "knowledgePointId": "el-ch06-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch06",
+        "sectionId": "el-ch06-sec-extra-general",
+        "knowledgePointId": "el-ch06-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226913",
     "year": 2024,
     "sourceNumber": 14,
     "type": "single",
-    "stem": "根据票据法律制度的规定，票据权利救济的说法中，正确的是(  )。",
+    "stem": "根据票据法律制度的规定，票据权利救济的说法中，正确的是( )。",
     "options": {
       "A": "失票⼈提起普通诉讼，法院不得要求提供担保",
       "B": "挂失⽌付是必经程序",
@@ -2293,7 +3994,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch06",
+    "sectionId": "el-ch06-sec-general",
+    "knowledgePointId": "el-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch06",
+        "sectionId": "el-ch06-sec-general",
+        "knowledgePointId": "el-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226876",
@@ -2321,7 +4043,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226887",
@@ -2349,7 +4092,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-extra-general",
+    "knowledgePointId": "el-ch07-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-extra-general",
+        "knowledgePointId": "el-ch07-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226907",
@@ -2377,7 +4141,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226910",
@@ -2405,22 +4190,43 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226914",
     "year": 2024,
     "sourceNumber": 20,
     "type": "single",
-    "stem": "根据政府采购法律制度的规定，",
+    "stem": "根据政府采购法律制度的规定，采购人与中标、成交供应商应当在中标、成交通知书发出之日起（ ）日内，按照采购文件确定的事项签订政府采购合同。",
     "options": {
-      "A": "采购⼈与中标、成交供应商应当在中标、成交通知书发出之⽇起",
-      "B": "(  )",
-      "C": "⽇内按",
-      "D": "照采购⽂件确定的事项签订政府采购合同。"
+      "A": "30",
+      "B": "20",
+      "C": "10",
+      "D": "60"
     },
     "answer": "A",
-    "explanation": "年中级经济法真题采购⼈与中标、成交供应商应当在中标、成交通知书发出之⽇起⽇内，按照采购⽂件确定的事项签订政府采购合同。",
+    "explanation": "采购人与中标、成交供应商应当在中标、成交通知书发出之日起30日内，按照采购文件确定的事项签订政府采购合同。",
     "topic": "财政法律制度",
     "subtopic": "",
     "difficulty": "normal",
@@ -2433,7 +4239,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226868",
@@ -2461,14 +4288,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226917",
     "year": 2024,
     "sourceNumber": 27,
     "type": "single",
-    "stem": "根据公司法律制度的规定，下列情形中，股东可以向法院申请解散公司的是(  )。",
+    "stem": "根据公司法律制度的规定，下列情形中，股东可以向法院申请解散公司的是( )。",
     "options": {
       "A": "公司持续两年以上⽆法召开股东会，公司经营管理发⽣严重困难",
       "B": "股东请求公司分配利润被拒绝",
@@ -2489,14 +4337,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226915",
     "year": 2024,
     "sourceNumber": 29,
     "type": "single",
-    "stem": "下列各项请求权中，适⽤诉讼时效规定的是(  )。",
+    "stem": "下列各项请求权中，适⽤诉讼时效规定的是( )。",
     "options": {
       "A": "排除妨碍请求权",
       "B": "⽀付房屋租⾦请求权",
@@ -2517,7 +4386,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235833",
@@ -2545,7 +4435,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235835",
@@ -2573,7 +4484,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235837",
@@ -2601,7 +4533,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch03",
+    "sectionId": "el-ch03-sec-extra-general",
+    "knowledgePointId": "el-ch03-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch03",
+        "sectionId": "el-ch03-sec-extra-general",
+        "knowledgePointId": "el-ch03-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235838",
@@ -2629,14 +4582,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch03",
+    "sectionId": "el-ch03-sec-general",
+    "knowledgePointId": "el-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch03",
+        "sectionId": "el-ch03-sec-general",
+        "knowledgePointId": "el-ch03-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235839",
     "year": 2025,
     "sourceNumber": 7,
     "type": "single",
-    "stem": "李某、王某、赵某为特殊普通合伙企业的合伙⼈，李某在执⾏合同中因重⼤过失造成了万元债务。关于该债务的处理，下列说法正确的是（）。",
+    "stem": "李某、王某、赵某为特殊普通合伙企业的合伙⼈，李某在执⾏合同中因重⼤过失造成了10万元债务。关于该债务的处理，下列说法正确的是（）。",
     "options": {
       "A": "李某、王某、赵某承担⽆限连带责任",
       "B": "李某、王某、赵某按出资⽐例承担对应的责任",
@@ -2657,7 +4631,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235840",
@@ -2685,7 +4680,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235841",
@@ -2713,7 +4729,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235842",
@@ -2741,7 +4778,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235844",
@@ -2769,7 +4827,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235845",
@@ -2797,22 +4876,43 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235846",
     "year": 2025,
     "sourceNumber": 14,
     "type": "single",
-    "stem": "年⽉⽇，为⽀付货款，甲公司签发了⼀张由丙银⾏承兑的（纸质）汇票给⼄公司。年⽉⽇，⼄公司为了采购原材料，与丁公司签订买卖合同。为⽀付货款，同⽇，⼄公司将该汇票背书转让给丁公司。为了提升票据信⽤，⼄公司应丁公司的要求，请戊公司提供票据保证，戊公司以保证⼈⾝份在汇票上进⾏了保证签章但未记载被保证⼈名称。根据票据法律制度的规定，该票据上的被保证⼈是（）。",
+    "stem": "2025年6月1日，为支付货款，甲公司签发了一张由丙银行承兑的（纸质）汇票给乙公司。2025年7月1日，乙公司为了采购原材料，与丁公司签订买卖合同。为支付货款，同日，乙公司将该汇票背书转让给丁公司。为了提升票据信用，乙公司应丁公司的要求，请戊公司提供票据保证，戊公司以保证人身份在汇票上进行了保证签章但未记载被保证人名称。根据票据法律制度的规定，该票据上的被保证人是（）。",
     "options": {
       "A": "甲公司",
-      "B": "⼄公司",
-      "C": "丙银⾏",
+      "B": "乙公司",
+      "C": "丙银行",
       "D": "丁公司"
     },
     "answer": "C",
-    "explanation": "保证⼈在（纸质）汇票或者粘单上未记载被保证⼈的名称的，已承兑的汇票，以承兑⼈为被保证⼈；未承兑的汇票，以出票⼈为被保证⼈。本题汇票已由丙银⾏承兑，被保证⼈为承兑⼈（丙银⾏），选项正确。【提⽰】电⼦商业汇票获得承兑前，保证⼈作出保证⾏为的，被保证⼈为出票⼈；电⼦商业汇票获得承兑后、出票⼈将电⼦商业汇票交付收款⼈前，保证⼈作出保证⾏为的，被保证⼈为承兑⼈；出票⼈将电⼦商业汇票交付收款⼈后，保证⼈作出保证⾏为的，被保证⼈为背书⼈。",
+    "explanation": "保证人在（纸质）汇票或者粘单上未记载被保证人的名称的，已承兑的汇票，以承兑人为被保证人；未承兑的汇票，以出票人为被保证人。本题汇票已由丙银行承兑，被保证人为承兑人（丙银行），选项C正确。",
     "topic": "金融法律制度",
     "subtopic": "",
     "difficulty": "normal",
@@ -2825,7 +4925,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch06",
+    "sectionId": "el-ch06-sec-general",
+    "knowledgePointId": "el-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch06",
+        "sectionId": "el-ch06-sec-general",
+        "knowledgePointId": "el-ch06-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235847",
@@ -2853,7 +4974,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-general",
+    "knowledgePointId": "el-ch04-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-general",
+        "knowledgePointId": "el-ch04-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235849",
@@ -2881,7 +5023,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235850",
@@ -2892,11 +5055,11 @@ window.FINANCE_STUDY_QUESTIONS = [
     "options": {
       "A": "王某为逃避债务而与赵某恶意串通签订借款合同",
       "B": "受胁迫而签订的合同",
-      "C": "周岁的⼤学⽣未经⽗⺟同意购买品牌⼿机",
-      "D": "⾼某故意将⾼仿品作为真品卖给李某"
+      "C": "19周岁的大学生未经父母同意购买品牌手机",
+      "D": "高某故意将高仿品作为真品卖给李某"
     },
     "answer": "A",
-    "explanation": "①选项当选，⾏为⼈与相对⼈恶意串通，损害他⼈合法权益的⺠事法律⾏为⽆效。②选项BD不当选，受欺诈、受胁迫而实施的法律⾏为，均属于可撤销法律⾏为。③选项不当选，周岁的⼤学⽣属于完全⺠事⾏为能⼒⼈，其实施的⾏为属于有效的法律⾏为。【BTBT提醒】⽆效法律⾏为的法律后果→返还财产、折价补偿、赔偿损失、其他制裁。",
+    "explanation": "选项A当选，行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。选项BD不当选，受欺诈、受胁迫而实施的法律行为，均属于可撤销法律行为。选项C不当选，19周岁的大学生属于完全民事行为能力人，其实施的行为属于有效的法律行为。",
     "topic": "总论",
     "subtopic": "",
     "difficulty": "normal",
@@ -2909,7 +5072,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch01",
+    "sectionId": "el-ch01-sec-general",
+    "knowledgePointId": "el-ch01-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch01",
+        "sectionId": "el-ch01-sec-general",
+        "knowledgePointId": "el-ch01-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235851",
@@ -2937,7 +5121,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch01",
+    "sectionId": "el-ch01-sec-general",
+    "knowledgePointId": "el-ch01-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch01",
+        "sectionId": "el-ch01-sec-general",
+        "knowledgePointId": "el-ch01-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235852",
@@ -2965,7 +5170,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235853",
@@ -2993,7 +5219,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-general",
+    "knowledgePointId": "el-ch05-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-general",
+        "knowledgePointId": "el-ch05-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235854",
@@ -3021,7 +5268,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch07",
+    "sectionId": "el-ch07-sec-general",
+    "knowledgePointId": "el-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch07",
+        "sectionId": "el-ch07-sec-general",
+        "knowledgePointId": "el-ch07-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235856",
@@ -3049,7 +5317,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235857",
@@ -3077,14 +5366,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-general",
+    "knowledgePointId": "el-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-general",
+        "knowledgePointId": "el-ch02-kp-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "fm-2022-233-01",
     "year": 2022,
     "sourceNumber": 1,
     "type": "single",
-    "stem": "关于企业财务管理体制的模式选择，下列说法错误的是（   ）",
+    "stem": "关于企业财务管理体制的模式选择，下列说法错误的是（ ）",
     "options": {
       "A": "若企业处于初创阶段，经营风险高，则更适合采用分权型财务管理体制",
       "B": "若企业管理者的素质高、能力强，则可以采用集权型财务管理体制",
@@ -3105,14 +5415,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch02",
+    "sectionId": "fm-ch02-sec-general",
+    "knowledgePointId": "fm-ch02-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch02",
+        "sectionId": "fm-ch02-sec-general",
+        "knowledgePointId": "fm-ch02-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-02",
     "year": 2022,
     "sourceNumber": 2,
     "type": "single",
-    "stem": "关于公司债券的提前偿还条款，下列表述正确的是（  ）",
+    "stem": "关于公司债券的提前偿还条款，下列表述正确的是（ ）",
     "options": {
       "A": "提前偿还条款降低了公司筹资的灵活性",
       "B": "提前偿还所支付的价格通常随着到期日的临近而上升",
@@ -3133,14 +5464,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-03",
     "year": 2022,
     "sourceNumber": 3,
     "type": "single",
-    "stem": "某公司全年应收账款平均余额为360万元，平均日赊销额为10万元，信用条件为在30天内按全额付清款项，则该公司应收账款的平均逾期天数为（    ）",
+    "stem": "某公司全年应收账款平均余额为360万元，平均日赊销额为10万元，信用条件为在30天内按全额付清款项，则该公司应收账款的平均逾期天数为（ ）",
     "options": {
       "A": "0天",
       "B": "6天",
@@ -3161,14 +5513,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch07",
+    "sectionId": "fm-ch07-sec-general",
+    "knowledgePointId": "fm-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch07",
+        "sectionId": "fm-ch07-sec-general",
+        "knowledgePointId": "fm-ch07-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-04",
     "year": 2022,
     "sourceNumber": 4,
     "type": "single",
-    "stem": "资本承办包括筹资费用和占用费用两个部分，下列各项中，属于占用费用的是（  ）",
+    "stem": "资本承办包括筹资费用和占用费用两个部分，下列各项中，属于占用费用的是（ ）",
     "options": {
       "A": "借款手续费",
       "B": "借款利息费",
@@ -3189,14 +5562,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-05",
     "year": 2022,
     "sourceNumber": 5,
     "type": "single",
-    "stem": "下列股利政策中，最能体现“多盈多分、少盈少分、无盈不分”的股利分配原则的是（   ）",
+    "stem": "下列股利政策中，最能体现“多盈多分、少盈少分、无盈不分”的股利分配原则的是（ ）",
     "options": {
       "A": "固定或稳定增长的股利政策",
       "B": "固定股利支付率政策",
@@ -3217,14 +5611,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-06",
     "year": 2022,
     "sourceNumber": 6,
     "type": "single",
-    "stem": "下列各项中，不属于公司制企业缺点的是(   )",
+    "stem": "下列各项中，不属于公司制企业缺点的是( )",
     "options": {
       "A": "导致双重课税",
       "B": "组建公司的成本高",
@@ -3245,14 +5660,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-07",
     "year": 2022,
     "sourceNumber": 7,
     "type": "single",
-    "stem": "在项目投资决策中，下列关于年金净流量法的表述错误的是（   ）",
+    "stem": "在项目投资决策中，下列关于年金净流量法的表述错误的是（ ）",
     "options": {
       "A": "年金净流量等于投资项目的现金净流量总现值除以年金现值系数",
       "B": "年金净流量大于零时，单一投资方案可行",
@@ -3273,14 +5709,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-08",
     "year": 2022,
     "sourceNumber": 8,
     "type": "single",
-    "stem": "某产品单价为60元，单位变动成本为20元，固定成本总额为50 000元，假设目标利润为10000元，则实现目标利润的销售量为（    ）",
+    "stem": "某产品单价为60元，单位变动成本为20元，固定成本总额为50 000元，假设目标利润为10000元，则实现目标利润的销售量为（ ）",
     "options": {
       "A": "1250件",
       "B": "2000件",
@@ -3301,14 +5758,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-09",
     "year": 2022,
     "sourceNumber": 9,
     "type": "single",
-    "stem": "某投资组合由A、B两种股票构成，权重分别为40%、60%，两种股票的期望收益率分别为10%、15%,两种股票收益率的相关系数为0.7，则该投资组合的期望收益率为（  ）",
+    "stem": "某投资组合由A、B两种股票构成，权重分别为40%、60%，两种股票的期望收益率分别为10%、15%,两种股票收益率的相关系数为0.7，则该投资组合的期望收益率为（ ）",
     "options": {
       "A": "12.5%",
       "B": "9.1%",
@@ -3329,7 +5807,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-10",
@@ -3357,7 +5856,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch08",
+    "sectionId": "fm-ch08-sec-general",
+    "knowledgePointId": "fm-ch08-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch08",
+        "sectionId": "fm-ch08-sec-general",
+        "knowledgePointId": "fm-ch08-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-11",
@@ -3385,7 +5905,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch03",
+    "sectionId": "fm-ch03-sec-general",
+    "knowledgePointId": "fm-ch03-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch03",
+        "sectionId": "fm-ch03-sec-general",
+        "knowledgePointId": "fm-ch03-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-12",
@@ -3413,7 +5954,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch10",
+    "sectionId": "fm-ch10-sec-general",
+    "knowledgePointId": "fm-ch10-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch10",
+        "sectionId": "fm-ch10-sec-general",
+        "knowledgePointId": "fm-ch10-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-13",
@@ -3441,7 +6003,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-14",
@@ -3469,7 +6052,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch07",
+    "sectionId": "fm-ch07-sec-general",
+    "knowledgePointId": "fm-ch07-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch07",
+        "sectionId": "fm-ch07-sec-general",
+        "knowledgePointId": "fm-ch07-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-15",
@@ -3497,7 +6101,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-16",
@@ -3525,14 +6150,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-17",
     "year": 2022,
     "sourceNumber": 17,
     "type": "single",
-    "stem": "某可转化债券面值为100元，转化价格为20元/股，当前标的股票的市价为25元/股，则该可转换债券的转换比率为（   ）",
+    "stem": "某可转化债券面值为100元，转化价格为20元/股，当前标的股票的市价为25元/股，则该可转换债券的转换比率为（ ）",
     "options": {
       "A": "5",
       "B": "1.25",
@@ -3553,14 +6199,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-18",
     "year": 2022,
     "sourceNumber": 18,
     "type": "single",
-    "stem": "在对某投资方案进行分析时发现，当折现率为8%时，净现值为25万元，当折现率为10%时，净现值为8万元，当折现率为12%时，净现值为-12万元。若该投资方案只存在一个内含收益率，则其内含收益率的数值区间为（   ）",
+    "stem": "在对某投资方案进行分析时发现，当折现率为8%时，净现值为25万元，当折现率为10%时，净现值为8万元，当折现率为12%时，净现值为-12万元。若该投资方案只存在一个内含收益率，则其内含收益率的数值区间为（ ）",
     "options": {
       "A": "介于10%与12%之间",
       "B": "大于12%",
@@ -3581,14 +6248,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch06",
+    "sectionId": "fm-ch06-sec-general",
+    "knowledgePointId": "fm-ch06-kp-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch06",
+        "sectionId": "fm-ch06-sec-general",
+        "knowledgePointId": "fm-ch06-kp-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-19",
     "year": 2022,
     "sourceNumber": 19,
     "type": "single",
-    "stem": "下列财务决策方法中，能用于资本结构优先决策，且考虑了风险因素的是（   ）",
+    "stem": "下列财务决策方法中，能用于资本结构优先决策，且考虑了风险因素的是（ ）",
     "options": {
       "A": "公司价值分析法",
       "B": "平均资本成本比较法",
@@ -3609,14 +6297,35 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch04",
+    "sectionId": "fm-ch04-sec-extra-financing",
+    "knowledgePointId": "fm-ch04-kp-extra-financing",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch04",
+        "sectionId": "fm-ch04-sec-extra-financing",
+        "knowledgePointId": "fm-ch04-kp-extra-financing"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "fm-2022-233-20",
     "year": 2022,
     "sourceNumber": 20,
     "type": "single",
-    "stem": "某投资者从小现在开始存入第一笔款项，随后每年存款一次，并存款10次，每次存款金额相等，利率为6%，复利计息，该投资者期望在10年后一次性取得100万元，则其每次存款金额的计算式为（  ）",
+    "stem": "某投资者从小现在开始存入第一笔款项，随后每年存款一次，并存款10次，每次存款金额相等，利率为6%，复利计息，该投资者期望在10年后一次性取得100万元，则其每次存款金额的计算式为（ ）",
     "options": {
       "A": "100/（F/A,6%,10）",
       "B": "100/（F/P,6%,10）",
@@ -3637,7 +6346,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": false,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "approved",
+    "chapterId": "fm-ch01",
+    "sectionId": "fm-ch01-sec-extra-general",
+    "knowledgePointId": "fm-ch01-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "fm-ch01",
+        "sectionId": "fm-ch01-sec-extra-general",
+        "knowledgePointId": "fm-ch01-kp-extra-general"
+      }
+    ],
+    "status": "approved"
   },
   {
     "id": "el-2024-228436",
@@ -3665,7 +6395,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch05",
+    "sectionId": "el-ch05-sec-extra-general",
+    "knowledgePointId": "el-ch05-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch05",
+        "sectionId": "el-ch05-sec-extra-general",
+        "knowledgePointId": "el-ch05-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226881",
@@ -3693,7 +6444,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch03",
+    "sectionId": "el-ch03-sec-extra-general",
+    "knowledgePointId": "el-ch03-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch03",
+        "sectionId": "el-ch03-sec-extra-general",
+        "knowledgePointId": "el-ch03-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-226908",
@@ -3721,7 +6493,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch02",
+    "sectionId": "el-ch02-sec-extra-general",
+    "knowledgePointId": "el-ch02-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch02",
+        "sectionId": "el-ch02-sec-extra-general",
+        "knowledgePointId": "el-ch02-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2024-228428",
@@ -3749,7 +6542,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-extra-general",
+    "knowledgePointId": "el-ch04-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-extra-general",
+        "knowledgePointId": "el-ch04-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235834",
@@ -3777,7 +6591,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch06",
+    "sectionId": "el-ch06-sec-extra-general",
+    "knowledgePointId": "el-ch06-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch06",
+        "sectionId": "el-ch06-sec-extra-general",
+        "knowledgePointId": "el-ch06-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235848",
@@ -3805,7 +6640,28 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-07",
+    "knowledgePointId": "el-ch04-kp-07",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-07",
+        "knowledgePointId": "el-ch04-kp-07"
+      }
+    ],
+    "status": "verified"
   },
   {
     "id": "el-2025-235855",
@@ -3833,6 +6689,27 @@ window.FINANCE_STUDY_QUESTIONS = [
     "verified": true,
     "generatedBy": "",
     "variantOf": "",
-    "reviewStatus": "verified"
+    "reviewStatus": "verified",
+    "chapterId": "el-ch04",
+    "sectionId": "el-ch04-sec-extra-general",
+    "knowledgePointId": "el-ch04-kp-extra-general",
+    "quality": {
+      "knowledgePointExists": true,
+      "textbookBasisMatched": true,
+      "answerUnique": true,
+      "duplicateChecked": true,
+      "numericIntegrity": true,
+      "passed": true,
+      "issues": []
+    },
+    "textbookRefs": [
+      {
+        "source": "2026教材知识树",
+        "chapterId": "el-ch04",
+        "sectionId": "el-ch04-sec-extra-general",
+        "knowledgePointId": "el-ch04-kp-extra-general"
+      }
+    ],
+    "status": "verified"
   }
 ];

@@ -1,0 +1,10 @@
+window.FINANCE_STUDY_GENERATED_QUESTIONS = {
+  "version": "2.0-draft",
+  "items": [],
+  "workflow": {
+    "draft": "AI生成草稿",
+    "validated": "自动质检通过",
+    "approved": "进入练习",
+    "rejected": "不进入练习"
+  }
+};

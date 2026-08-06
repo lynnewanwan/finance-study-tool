@@ -1,0 +1,2661 @@
+window.FINANCE_STUDY_KNOWLEDGE_BASE = {
+  "version": "2.0-draft",
+  "subjects": {
+    "financial_management": {
+      "subjectId": "financial_management",
+      "chapters": [
+        {
+          "chapterId": "fm-ch01",
+          "chapterNumber": 1,
+          "title": "总论",
+          "sections": [
+            {
+              "sectionId": "fm-ch01-sec-01",
+              "title": "企业与企业财务管理"
+            },
+            {
+              "sectionId": "fm-ch01-sec-02",
+              "title": "财务管理目标"
+            },
+            {
+              "sectionId": "fm-ch01-sec-03",
+              "title": "利益冲突与协调"
+            },
+            {
+              "sectionId": "fm-ch01-sec-04",
+              "title": "财务管理体制"
+            },
+            {
+              "sectionId": "fm-ch01-sec-05",
+              "title": "财务管理环境"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch02",
+          "chapterNumber": 2,
+          "title": "财务管理基础",
+          "sections": [
+            {
+              "sectionId": "fm-ch02-sec-01",
+              "title": "货币时间价值"
+            },
+            {
+              "sectionId": "fm-ch02-sec-02",
+              "title": "风险与收益"
+            },
+            {
+              "sectionId": "fm-ch02-sec-03",
+              "title": "成本性态分析"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch03",
+          "chapterNumber": 3,
+          "title": "预算管理",
+          "sections": [
+            {
+              "sectionId": "fm-ch03-sec-01",
+              "title": "预算管理概述"
+            },
+            {
+              "sectionId": "fm-ch03-sec-02",
+              "title": "预算编制方法"
+            },
+            {
+              "sectionId": "fm-ch03-sec-03",
+              "title": "经营预算"
+            },
+            {
+              "sectionId": "fm-ch03-sec-04",
+              "title": "专门决策预算"
+            },
+            {
+              "sectionId": "fm-ch03-sec-05",
+              "title": "财务预算"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch04",
+          "chapterNumber": 4,
+          "title": "筹资管理（上）",
+          "sections": [
+            {
+              "sectionId": "fm-ch04-sec-01",
+              "title": "筹资管理概述"
+            },
+            {
+              "sectionId": "fm-ch04-sec-02",
+              "title": "债务筹资"
+            },
+            {
+              "sectionId": "fm-ch04-sec-03",
+              "title": "股权筹资"
+            },
+            {
+              "sectionId": "fm-ch04-sec-04",
+              "title": "衍生工具筹资"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch05",
+          "chapterNumber": 5,
+          "title": "筹资管理（下）",
+          "sections": [
+            {
+              "sectionId": "fm-ch05-sec-01",
+              "title": "资金需要量预测"
+            },
+            {
+              "sectionId": "fm-ch05-sec-02",
+              "title": "资本成本"
+            },
+            {
+              "sectionId": "fm-ch05-sec-03",
+              "title": "杠杆效应"
+            },
+            {
+              "sectionId": "fm-ch05-sec-04",
+              "title": "资本结构"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch06",
+          "chapterNumber": 6,
+          "title": "投资管理",
+          "sections": [
+            {
+              "sectionId": "fm-ch06-sec-01",
+              "title": "投资管理概述"
+            },
+            {
+              "sectionId": "fm-ch06-sec-02",
+              "title": "项目投资管理"
+            },
+            {
+              "sectionId": "fm-ch06-sec-03",
+              "title": "证券投资管理"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch07",
+          "chapterNumber": 7,
+          "title": "营运资金管理",
+          "sections": [
+            {
+              "sectionId": "fm-ch07-sec-01",
+              "title": "营运资金管理策略"
+            },
+            {
+              "sectionId": "fm-ch07-sec-02",
+              "title": "现金管理"
+            },
+            {
+              "sectionId": "fm-ch07-sec-03",
+              "title": "应收账款管理"
+            },
+            {
+              "sectionId": "fm-ch07-sec-04",
+              "title": "存货管理"
+            },
+            {
+              "sectionId": "fm-ch07-sec-05",
+              "title": "流动负债管理"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch08",
+          "chapterNumber": 8,
+          "title": "成本管理",
+          "sections": [
+            {
+              "sectionId": "fm-ch08-sec-01",
+              "title": "成本管理概述"
+            },
+            {
+              "sectionId": "fm-ch08-sec-02",
+              "title": "本量利分析"
+            },
+            {
+              "sectionId": "fm-ch08-sec-03",
+              "title": "标准成本控制"
+            },
+            {
+              "sectionId": "fm-ch08-sec-04",
+              "title": "作业成本与责任成本"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch09",
+          "chapterNumber": 9,
+          "title": "收入与分配管理",
+          "sections": [
+            {
+              "sectionId": "fm-ch09-sec-01",
+              "title": "收入管理"
+            },
+            {
+              "sectionId": "fm-ch09-sec-02",
+              "title": "纳税管理"
+            },
+            {
+              "sectionId": "fm-ch09-sec-03",
+              "title": "利润分配管理"
+            }
+          ]
+        },
+        {
+          "chapterId": "fm-ch10",
+          "chapterNumber": 10,
+          "title": "财务分析与评价",
+          "sections": [
+            {
+              "sectionId": "fm-ch10-sec-01",
+              "title": "财务分析方法"
+            },
+            {
+              "sectionId": "fm-ch10-sec-02",
+              "title": "偿债能力分析"
+            },
+            {
+              "sectionId": "fm-ch10-sec-03",
+              "title": "营运能力分析"
+            },
+            {
+              "sectionId": "fm-ch10-sec-04",
+              "title": "盈利能力分析"
+            },
+            {
+              "sectionId": "fm-ch10-sec-05",
+              "title": "发展能力分析"
+            },
+            {
+              "sectionId": "fm-ch10-sec-06",
+              "title": "综合绩效评价"
+            }
+          ]
+        }
+      ],
+      "knowledgePoints": [
+        {
+          "id": "fm-ch01-kp-general",
+          "chapterId": "fm-ch01",
+          "sectionId": "fm-ch01-sec-general",
+          "title": "总论",
+          "aliases": [
+            "总论"
+          ],
+          "keywords": [
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch01-kp-01",
+          "chapterId": "fm-ch01",
+          "sectionId": "fm-ch01-sec-01",
+          "title": "企业与企业财务管理",
+          "aliases": [
+            "企业与企业财务管理"
+          ],
+          "keywords": [
+            "企业与企业财务管理",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "企业与企业财务管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch01-kp-02",
+          "chapterId": "fm-ch01",
+          "sectionId": "fm-ch01-sec-02",
+          "title": "财务管理目标",
+          "aliases": [
+            "财务管理目标"
+          ],
+          "keywords": [
+            "财务管理目标",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "财务管理目标"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch01-kp-03",
+          "chapterId": "fm-ch01",
+          "sectionId": "fm-ch01-sec-03",
+          "title": "利益冲突与协调",
+          "aliases": [
+            "利益冲突与协调"
+          ],
+          "keywords": [
+            "利益冲突与协调",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "利益冲突与协调"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch01-kp-04",
+          "chapterId": "fm-ch01",
+          "sectionId": "fm-ch01-sec-04",
+          "title": "财务管理体制",
+          "aliases": [
+            "财务管理体制"
+          ],
+          "keywords": [
+            "财务管理体制",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "财务管理体制"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch01-kp-05",
+          "chapterId": "fm-ch01",
+          "sectionId": "fm-ch01-sec-05",
+          "title": "财务管理环境",
+          "aliases": [
+            "财务管理环境"
+          ],
+          "keywords": [
+            "财务管理环境",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "财务管理环境"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch02-kp-general",
+          "chapterId": "fm-ch02",
+          "sectionId": "fm-ch02-sec-general",
+          "title": "财务管理基础",
+          "aliases": [
+            "财务管理基础"
+          ],
+          "keywords": [
+            "财务管理基础"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务管理基础"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch02-kp-01",
+          "chapterId": "fm-ch02",
+          "sectionId": "fm-ch02-sec-01",
+          "title": "货币时间价值",
+          "aliases": [
+            "货币时间价值"
+          ],
+          "keywords": [
+            "货币时间价值",
+            "财务管理基础"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务管理基础",
+              "section": "货币时间价值"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch02-kp-02",
+          "chapterId": "fm-ch02",
+          "sectionId": "fm-ch02-sec-02",
+          "title": "风险与收益",
+          "aliases": [
+            "风险与收益"
+          ],
+          "keywords": [
+            "风险与收益",
+            "财务管理基础"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务管理基础",
+              "section": "风险与收益"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch02-kp-03",
+          "chapterId": "fm-ch02",
+          "sectionId": "fm-ch02-sec-03",
+          "title": "成本性态分析",
+          "aliases": [
+            "成本性态分析"
+          ],
+          "keywords": [
+            "成本性态分析",
+            "财务管理基础"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务管理基础",
+              "section": "成本性态分析"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch03-kp-general",
+          "chapterId": "fm-ch03",
+          "sectionId": "fm-ch03-sec-general",
+          "title": "预算管理",
+          "aliases": [
+            "预算管理"
+          ],
+          "keywords": [
+            "预算管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "预算管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch03-kp-01",
+          "chapterId": "fm-ch03",
+          "sectionId": "fm-ch03-sec-01",
+          "title": "预算管理概述",
+          "aliases": [
+            "预算管理概述"
+          ],
+          "keywords": [
+            "预算管理概述",
+            "预算管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "预算管理",
+              "section": "预算管理概述"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch03-kp-02",
+          "chapterId": "fm-ch03",
+          "sectionId": "fm-ch03-sec-02",
+          "title": "预算编制方法",
+          "aliases": [
+            "预算编制方法"
+          ],
+          "keywords": [
+            "预算编制方法",
+            "预算管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "预算管理",
+              "section": "预算编制方法"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch03-kp-03",
+          "chapterId": "fm-ch03",
+          "sectionId": "fm-ch03-sec-03",
+          "title": "经营预算",
+          "aliases": [
+            "经营预算"
+          ],
+          "keywords": [
+            "经营预算",
+            "预算管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "预算管理",
+              "section": "经营预算"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch03-kp-04",
+          "chapterId": "fm-ch03",
+          "sectionId": "fm-ch03-sec-04",
+          "title": "专门决策预算",
+          "aliases": [
+            "专门决策预算"
+          ],
+          "keywords": [
+            "专门决策预算",
+            "预算管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "预算管理",
+              "section": "专门决策预算"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch03-kp-05",
+          "chapterId": "fm-ch03",
+          "sectionId": "fm-ch03-sec-05",
+          "title": "财务预算",
+          "aliases": [
+            "财务预算"
+          ],
+          "keywords": [
+            "财务预算",
+            "预算管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "预算管理",
+              "section": "财务预算"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch04-kp-general",
+          "chapterId": "fm-ch04",
+          "sectionId": "fm-ch04-sec-general",
+          "title": "筹资管理（上）",
+          "aliases": [
+            "筹资管理（上）"
+          ],
+          "keywords": [
+            "筹资管理（上）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（上）"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch04-kp-01",
+          "chapterId": "fm-ch04",
+          "sectionId": "fm-ch04-sec-01",
+          "title": "筹资管理概述",
+          "aliases": [
+            "筹资管理概述"
+          ],
+          "keywords": [
+            "筹资管理概述",
+            "筹资管理（上）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（上）",
+              "section": "筹资管理概述"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch04-kp-02",
+          "chapterId": "fm-ch04",
+          "sectionId": "fm-ch04-sec-02",
+          "title": "债务筹资",
+          "aliases": [
+            "债务筹资"
+          ],
+          "keywords": [
+            "债务筹资",
+            "筹资管理（上）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（上）",
+              "section": "债务筹资"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch04-kp-03",
+          "chapterId": "fm-ch04",
+          "sectionId": "fm-ch04-sec-03",
+          "title": "股权筹资",
+          "aliases": [
+            "股权筹资"
+          ],
+          "keywords": [
+            "股权筹资",
+            "筹资管理（上）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（上）",
+              "section": "股权筹资"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch04-kp-04",
+          "chapterId": "fm-ch04",
+          "sectionId": "fm-ch04-sec-04",
+          "title": "衍生工具筹资",
+          "aliases": [
+            "衍生工具筹资"
+          ],
+          "keywords": [
+            "衍生工具筹资",
+            "筹资管理（上）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（上）",
+              "section": "衍生工具筹资"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch05-kp-general",
+          "chapterId": "fm-ch05",
+          "sectionId": "fm-ch05-sec-general",
+          "title": "筹资管理（下）",
+          "aliases": [
+            "筹资管理（下）"
+          ],
+          "keywords": [
+            "筹资管理（下）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（下）"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch05-kp-01",
+          "chapterId": "fm-ch05",
+          "sectionId": "fm-ch05-sec-01",
+          "title": "资金需要量预测",
+          "aliases": [
+            "资金需要量预测"
+          ],
+          "keywords": [
+            "资金需要量预测",
+            "筹资管理（下）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（下）",
+              "section": "资金需要量预测"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch05-kp-02",
+          "chapterId": "fm-ch05",
+          "sectionId": "fm-ch05-sec-02",
+          "title": "资本成本",
+          "aliases": [
+            "资本成本"
+          ],
+          "keywords": [
+            "资本成本",
+            "筹资管理（下）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（下）",
+              "section": "资本成本"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch05-kp-03",
+          "chapterId": "fm-ch05",
+          "sectionId": "fm-ch05-sec-03",
+          "title": "杠杆效应",
+          "aliases": [
+            "杠杆效应"
+          ],
+          "keywords": [
+            "杠杆效应",
+            "筹资管理（下）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（下）",
+              "section": "杠杆效应"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch05-kp-04",
+          "chapterId": "fm-ch05",
+          "sectionId": "fm-ch05-sec-04",
+          "title": "资本结构",
+          "aliases": [
+            "资本结构"
+          ],
+          "keywords": [
+            "资本结构",
+            "筹资管理（下）"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "筹资管理（下）",
+              "section": "资本结构"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch06-kp-general",
+          "chapterId": "fm-ch06",
+          "sectionId": "fm-ch06-sec-general",
+          "title": "投资管理",
+          "aliases": [
+            "投资管理"
+          ],
+          "keywords": [
+            "投资管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "投资管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch06-kp-01",
+          "chapterId": "fm-ch06",
+          "sectionId": "fm-ch06-sec-01",
+          "title": "投资管理概述",
+          "aliases": [
+            "投资管理概述"
+          ],
+          "keywords": [
+            "投资管理概述",
+            "投资管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "投资管理",
+              "section": "投资管理概述"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch06-kp-02",
+          "chapterId": "fm-ch06",
+          "sectionId": "fm-ch06-sec-02",
+          "title": "项目投资管理",
+          "aliases": [
+            "项目投资管理"
+          ],
+          "keywords": [
+            "项目投资管理",
+            "投资管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "投资管理",
+              "section": "项目投资管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch06-kp-03",
+          "chapterId": "fm-ch06",
+          "sectionId": "fm-ch06-sec-03",
+          "title": "证券投资管理",
+          "aliases": [
+            "证券投资管理"
+          ],
+          "keywords": [
+            "证券投资管理",
+            "投资管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "投资管理",
+              "section": "证券投资管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch07-kp-general",
+          "chapterId": "fm-ch07",
+          "sectionId": "fm-ch07-sec-general",
+          "title": "营运资金管理",
+          "aliases": [
+            "营运资金管理"
+          ],
+          "keywords": [
+            "营运资金管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "营运资金管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch07-kp-01",
+          "chapterId": "fm-ch07",
+          "sectionId": "fm-ch07-sec-01",
+          "title": "营运资金管理策略",
+          "aliases": [
+            "营运资金管理策略"
+          ],
+          "keywords": [
+            "营运资金管理策略",
+            "营运资金管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "营运资金管理",
+              "section": "营运资金管理策略"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch07-kp-02",
+          "chapterId": "fm-ch07",
+          "sectionId": "fm-ch07-sec-02",
+          "title": "现金管理",
+          "aliases": [
+            "现金管理"
+          ],
+          "keywords": [
+            "现金管理",
+            "营运资金管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "营运资金管理",
+              "section": "现金管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch07-kp-03",
+          "chapterId": "fm-ch07",
+          "sectionId": "fm-ch07-sec-03",
+          "title": "应收账款管理",
+          "aliases": [
+            "应收账款管理"
+          ],
+          "keywords": [
+            "应收账款管理",
+            "营运资金管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "营运资金管理",
+              "section": "应收账款管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch07-kp-04",
+          "chapterId": "fm-ch07",
+          "sectionId": "fm-ch07-sec-04",
+          "title": "存货管理",
+          "aliases": [
+            "存货管理"
+          ],
+          "keywords": [
+            "存货管理",
+            "营运资金管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "营运资金管理",
+              "section": "存货管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch07-kp-05",
+          "chapterId": "fm-ch07",
+          "sectionId": "fm-ch07-sec-05",
+          "title": "流动负债管理",
+          "aliases": [
+            "流动负债管理"
+          ],
+          "keywords": [
+            "流动负债管理",
+            "营运资金管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "营运资金管理",
+              "section": "流动负债管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch08-kp-general",
+          "chapterId": "fm-ch08",
+          "sectionId": "fm-ch08-sec-general",
+          "title": "成本管理",
+          "aliases": [
+            "成本管理"
+          ],
+          "keywords": [
+            "成本管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "成本管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch08-kp-01",
+          "chapterId": "fm-ch08",
+          "sectionId": "fm-ch08-sec-01",
+          "title": "成本管理概述",
+          "aliases": [
+            "成本管理概述"
+          ],
+          "keywords": [
+            "成本管理概述",
+            "成本管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "成本管理",
+              "section": "成本管理概述"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch08-kp-02",
+          "chapterId": "fm-ch08",
+          "sectionId": "fm-ch08-sec-02",
+          "title": "本量利分析",
+          "aliases": [
+            "本量利分析"
+          ],
+          "keywords": [
+            "本量利分析",
+            "成本管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "成本管理",
+              "section": "本量利分析"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch08-kp-03",
+          "chapterId": "fm-ch08",
+          "sectionId": "fm-ch08-sec-03",
+          "title": "标准成本控制",
+          "aliases": [
+            "标准成本控制"
+          ],
+          "keywords": [
+            "标准成本控制",
+            "成本管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "成本管理",
+              "section": "标准成本控制"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch08-kp-04",
+          "chapterId": "fm-ch08",
+          "sectionId": "fm-ch08-sec-04",
+          "title": "作业成本与责任成本",
+          "aliases": [
+            "作业成本与责任成本"
+          ],
+          "keywords": [
+            "作业成本与责任成本",
+            "成本管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "成本管理",
+              "section": "作业成本与责任成本"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch09-kp-general",
+          "chapterId": "fm-ch09",
+          "sectionId": "fm-ch09-sec-general",
+          "title": "收入与分配管理",
+          "aliases": [
+            "收入与分配管理"
+          ],
+          "keywords": [
+            "收入与分配管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "收入与分配管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch09-kp-01",
+          "chapterId": "fm-ch09",
+          "sectionId": "fm-ch09-sec-01",
+          "title": "收入管理",
+          "aliases": [
+            "收入管理"
+          ],
+          "keywords": [
+            "收入管理",
+            "收入与分配管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "收入与分配管理",
+              "section": "收入管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch09-kp-02",
+          "chapterId": "fm-ch09",
+          "sectionId": "fm-ch09-sec-02",
+          "title": "纳税管理",
+          "aliases": [
+            "纳税管理"
+          ],
+          "keywords": [
+            "纳税管理",
+            "收入与分配管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "收入与分配管理",
+              "section": "纳税管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch09-kp-03",
+          "chapterId": "fm-ch09",
+          "sectionId": "fm-ch09-sec-03",
+          "title": "利润分配管理",
+          "aliases": [
+            "利润分配管理"
+          ],
+          "keywords": [
+            "利润分配管理",
+            "收入与分配管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "收入与分配管理",
+              "section": "利润分配管理"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch10-kp-general",
+          "chapterId": "fm-ch10",
+          "sectionId": "fm-ch10-sec-general",
+          "title": "财务分析与评价",
+          "aliases": [
+            "财务分析与评价"
+          ],
+          "keywords": [
+            "财务分析与评价"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务分析与评价"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch10-kp-01",
+          "chapterId": "fm-ch10",
+          "sectionId": "fm-ch10-sec-01",
+          "title": "财务分析方法",
+          "aliases": [
+            "财务分析方法"
+          ],
+          "keywords": [
+            "财务分析方法",
+            "财务分析与评价"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务分析与评价",
+              "section": "财务分析方法"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch10-kp-02",
+          "chapterId": "fm-ch10",
+          "sectionId": "fm-ch10-sec-02",
+          "title": "偿债能力分析",
+          "aliases": [
+            "偿债能力分析"
+          ],
+          "keywords": [
+            "偿债能力分析",
+            "财务分析与评价"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务分析与评价",
+              "section": "偿债能力分析"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch10-kp-03",
+          "chapterId": "fm-ch10",
+          "sectionId": "fm-ch10-sec-03",
+          "title": "营运能力分析",
+          "aliases": [
+            "营运能力分析"
+          ],
+          "keywords": [
+            "营运能力分析",
+            "财务分析与评价"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务分析与评价",
+              "section": "营运能力分析"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch10-kp-04",
+          "chapterId": "fm-ch10",
+          "sectionId": "fm-ch10-sec-04",
+          "title": "盈利能力分析",
+          "aliases": [
+            "盈利能力分析"
+          ],
+          "keywords": [
+            "盈利能力分析",
+            "财务分析与评价"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务分析与评价",
+              "section": "盈利能力分析"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch10-kp-05",
+          "chapterId": "fm-ch10",
+          "sectionId": "fm-ch10-sec-05",
+          "title": "发展能力分析",
+          "aliases": [
+            "发展能力分析"
+          ],
+          "keywords": [
+            "发展能力分析",
+            "财务分析与评价"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务分析与评价",
+              "section": "发展能力分析"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch10-kp-06",
+          "chapterId": "fm-ch10",
+          "sectionId": "fm-ch10-sec-06",
+          "title": "综合绩效评价",
+          "aliases": [
+            "综合绩效评价"
+          ],
+          "keywords": [
+            "综合绩效评价",
+            "财务分析与评价"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财务分析与评价",
+              "section": "综合绩效评价"
+            }
+          ]
+        },
+        {
+          "id": "fm-ch04-kp-extra-financing",
+          "chapterId": "fm-ch04",
+          "sectionId": "fm-ch04-sec-extra-financing",
+          "title": "筹资管理",
+          "aliases": [
+            "筹资管理",
+            "筹资管理"
+          ],
+          "keywords": [
+            "筹资管理",
+            "筹资管理"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "筹资管理",
+              "section": ""
+            }
+          ]
+        },
+        {
+          "id": "fm-ch01-kp-extra-general",
+          "chapterId": "fm-ch01",
+          "sectionId": "fm-ch01-sec-extra-general",
+          "title": "其他综合",
+          "aliases": [
+            "其他综合",
+            "其他综合"
+          ],
+          "keywords": [
+            "其他综合",
+            "其他综合"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "其他综合",
+              "section": ""
+            }
+          ]
+        }
+      ]
+    },
+    "economic_law": {
+      "subjectId": "economic_law",
+      "chapters": [
+        {
+          "chapterId": "el-ch01",
+          "chapterNumber": 1,
+          "title": "总论",
+          "sections": [
+            {
+              "sectionId": "el-ch01-sec-01",
+              "title": "法律体系"
+            },
+            {
+              "sectionId": "el-ch01-sec-02",
+              "title": "法律行为与代理"
+            },
+            {
+              "sectionId": "el-ch01-sec-03",
+              "title": "经济纠纷解决"
+            },
+            {
+              "sectionId": "el-ch01-sec-04",
+              "title": "仲裁"
+            },
+            {
+              "sectionId": "el-ch01-sec-05",
+              "title": "诉讼时效"
+            }
+          ]
+        },
+        {
+          "chapterId": "el-ch02",
+          "chapterNumber": 2,
+          "title": "公司法律制度",
+          "sections": [
+            {
+              "sectionId": "el-ch02-sec-01",
+              "title": "公司设立"
+            },
+            {
+              "sectionId": "el-ch02-sec-02",
+              "title": "股东权利"
+            },
+            {
+              "sectionId": "el-ch02-sec-03",
+              "title": "组织机构"
+            },
+            {
+              "sectionId": "el-ch02-sec-04",
+              "title": "股权转让"
+            },
+            {
+              "sectionId": "el-ch02-sec-05",
+              "title": "公司债券"
+            },
+            {
+              "sectionId": "el-ch02-sec-06",
+              "title": "公司解散和清算"
+            }
+          ]
+        },
+        {
+          "chapterId": "el-ch03",
+          "chapterNumber": 3,
+          "title": "合伙企业法律制度",
+          "sections": [
+            {
+              "sectionId": "el-ch03-sec-01",
+              "title": "普通合伙企业"
+            },
+            {
+              "sectionId": "el-ch03-sec-02",
+              "title": "有限合伙企业"
+            },
+            {
+              "sectionId": "el-ch03-sec-03",
+              "title": "合伙企业事务执行"
+            },
+            {
+              "sectionId": "el-ch03-sec-04",
+              "title": "入伙退伙"
+            },
+            {
+              "sectionId": "el-ch03-sec-05",
+              "title": "解散清算"
+            }
+          ]
+        },
+        {
+          "chapterId": "el-ch04",
+          "chapterNumber": 4,
+          "title": "物权法律制度",
+          "sections": [
+            {
+              "sectionId": "el-ch04-sec-01",
+              "title": "物权变动"
+            },
+            {
+              "sectionId": "el-ch04-sec-02",
+              "title": "所有权"
+            },
+            {
+              "sectionId": "el-ch04-sec-03",
+              "title": "用益物权"
+            },
+            {
+              "sectionId": "el-ch04-sec-04",
+              "title": "担保物权"
+            },
+            {
+              "sectionId": "el-ch04-sec-05",
+              "title": "抵押权"
+            },
+            {
+              "sectionId": "el-ch04-sec-06",
+              "title": "质权"
+            },
+            {
+              "sectionId": "el-ch04-sec-07",
+              "title": "留置权"
+            }
+          ]
+        },
+        {
+          "chapterId": "el-ch05",
+          "chapterNumber": 5,
+          "title": "合同法律制度",
+          "sections": [
+            {
+              "sectionId": "el-ch05-sec-01",
+              "title": "合同订立"
+            },
+            {
+              "sectionId": "el-ch05-sec-02",
+              "title": "合同效力"
+            },
+            {
+              "sectionId": "el-ch05-sec-03",
+              "title": "合同履行"
+            },
+            {
+              "sectionId": "el-ch05-sec-04",
+              "title": "合同保全"
+            },
+            {
+              "sectionId": "el-ch05-sec-05",
+              "title": "合同变更转让终止"
+            },
+            {
+              "sectionId": "el-ch05-sec-06",
+              "title": "违约责任"
+            },
+            {
+              "sectionId": "el-ch05-sec-07",
+              "title": "买卖合同"
+            },
+            {
+              "sectionId": "el-ch05-sec-08",
+              "title": "借款合同"
+            },
+            {
+              "sectionId": "el-ch05-sec-09",
+              "title": "租赁合同"
+            }
+          ]
+        },
+        {
+          "chapterId": "el-ch06",
+          "chapterNumber": 6,
+          "title": "金融法律制度",
+          "sections": [
+            {
+              "sectionId": "el-ch06-sec-01",
+              "title": "票据法律制度"
+            },
+            {
+              "sectionId": "el-ch06-sec-02",
+              "title": "证券法律制度"
+            },
+            {
+              "sectionId": "el-ch06-sec-03",
+              "title": "保险法律制度"
+            },
+            {
+              "sectionId": "el-ch06-sec-04",
+              "title": "信托法律制度"
+            }
+          ]
+        },
+        {
+          "chapterId": "el-ch07",
+          "chapterNumber": 7,
+          "title": "财政法律制度",
+          "sections": [
+            {
+              "sectionId": "el-ch07-sec-01",
+              "title": "预算法律制度"
+            },
+            {
+              "sectionId": "el-ch07-sec-02",
+              "title": "政府采购法律制度"
+            },
+            {
+              "sectionId": "el-ch07-sec-03",
+              "title": "国有资产管理法律制度"
+            }
+          ]
+        }
+      ],
+      "knowledgePoints": [
+        {
+          "id": "el-ch01-kp-general",
+          "chapterId": "el-ch01",
+          "sectionId": "el-ch01-sec-general",
+          "title": "总论",
+          "aliases": [
+            "总论"
+          ],
+          "keywords": [
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论"
+            }
+          ]
+        },
+        {
+          "id": "el-ch01-kp-01",
+          "chapterId": "el-ch01",
+          "sectionId": "el-ch01-sec-01",
+          "title": "法律体系",
+          "aliases": [
+            "法律体系"
+          ],
+          "keywords": [
+            "法律体系",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "法律体系"
+            }
+          ]
+        },
+        {
+          "id": "el-ch01-kp-02",
+          "chapterId": "el-ch01",
+          "sectionId": "el-ch01-sec-02",
+          "title": "法律行为与代理",
+          "aliases": [
+            "法律行为与代理"
+          ],
+          "keywords": [
+            "法律行为与代理",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "法律行为与代理"
+            }
+          ]
+        },
+        {
+          "id": "el-ch01-kp-03",
+          "chapterId": "el-ch01",
+          "sectionId": "el-ch01-sec-03",
+          "title": "经济纠纷解决",
+          "aliases": [
+            "经济纠纷解决"
+          ],
+          "keywords": [
+            "经济纠纷解决",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "经济纠纷解决"
+            }
+          ]
+        },
+        {
+          "id": "el-ch01-kp-04",
+          "chapterId": "el-ch01",
+          "sectionId": "el-ch01-sec-04",
+          "title": "仲裁",
+          "aliases": [
+            "仲裁"
+          ],
+          "keywords": [
+            "仲裁",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "仲裁"
+            }
+          ]
+        },
+        {
+          "id": "el-ch01-kp-05",
+          "chapterId": "el-ch01",
+          "sectionId": "el-ch01-sec-05",
+          "title": "诉讼时效",
+          "aliases": [
+            "诉讼时效"
+          ],
+          "keywords": [
+            "诉讼时效",
+            "总论"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "总论",
+              "section": "诉讼时效"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-general",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-general",
+          "title": "公司法律制度",
+          "aliases": [
+            "公司法律制度"
+          ],
+          "keywords": [
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "公司法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-01",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-01",
+          "title": "公司设立",
+          "aliases": [
+            "公司设立"
+          ],
+          "keywords": [
+            "公司设立",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "公司法律制度",
+              "section": "公司设立"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-02",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-02",
+          "title": "股东权利",
+          "aliases": [
+            "股东权利"
+          ],
+          "keywords": [
+            "股东权利",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "公司法律制度",
+              "section": "股东权利"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-03",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-03",
+          "title": "组织机构",
+          "aliases": [
+            "组织机构"
+          ],
+          "keywords": [
+            "组织机构",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "公司法律制度",
+              "section": "组织机构"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-04",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-04",
+          "title": "股权转让",
+          "aliases": [
+            "股权转让"
+          ],
+          "keywords": [
+            "股权转让",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "公司法律制度",
+              "section": "股权转让"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-05",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-05",
+          "title": "公司债券",
+          "aliases": [
+            "公司债券"
+          ],
+          "keywords": [
+            "公司债券",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "公司法律制度",
+              "section": "公司债券"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-06",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-06",
+          "title": "公司解散和清算",
+          "aliases": [
+            "公司解散和清算"
+          ],
+          "keywords": [
+            "公司解散和清算",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "公司法律制度",
+              "section": "公司解散和清算"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-general",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-general",
+          "title": "合伙企业法律制度",
+          "aliases": [
+            "合伙企业法律制度"
+          ],
+          "keywords": [
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合伙企业法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-01",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-01",
+          "title": "普通合伙企业",
+          "aliases": [
+            "普通合伙企业"
+          ],
+          "keywords": [
+            "普通合伙企业",
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合伙企业法律制度",
+              "section": "普通合伙企业"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-02",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-02",
+          "title": "有限合伙企业",
+          "aliases": [
+            "有限合伙企业"
+          ],
+          "keywords": [
+            "有限合伙企业",
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合伙企业法律制度",
+              "section": "有限合伙企业"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-03",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-03",
+          "title": "合伙企业事务执行",
+          "aliases": [
+            "合伙企业事务执行"
+          ],
+          "keywords": [
+            "合伙企业事务执行",
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合伙企业法律制度",
+              "section": "合伙企业事务执行"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-04",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-04",
+          "title": "入伙退伙",
+          "aliases": [
+            "入伙退伙"
+          ],
+          "keywords": [
+            "入伙退伙",
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合伙企业法律制度",
+              "section": "入伙退伙"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-05",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-05",
+          "title": "解散清算",
+          "aliases": [
+            "解散清算"
+          ],
+          "keywords": [
+            "解散清算",
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合伙企业法律制度",
+              "section": "解散清算"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-general",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-general",
+          "title": "物权法律制度",
+          "aliases": [
+            "物权法律制度"
+          ],
+          "keywords": [
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-01",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-01",
+          "title": "物权变动",
+          "aliases": [
+            "物权变动"
+          ],
+          "keywords": [
+            "物权变动",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度",
+              "section": "物权变动"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-02",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-02",
+          "title": "所有权",
+          "aliases": [
+            "所有权"
+          ],
+          "keywords": [
+            "所有权",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度",
+              "section": "所有权"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-03",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-03",
+          "title": "用益物权",
+          "aliases": [
+            "用益物权"
+          ],
+          "keywords": [
+            "用益物权",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度",
+              "section": "用益物权"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-04",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-04",
+          "title": "担保物权",
+          "aliases": [
+            "担保物权"
+          ],
+          "keywords": [
+            "担保物权",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度",
+              "section": "担保物权"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-05",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-05",
+          "title": "抵押权",
+          "aliases": [
+            "抵押权"
+          ],
+          "keywords": [
+            "抵押权",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度",
+              "section": "抵押权"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-06",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-06",
+          "title": "质权",
+          "aliases": [
+            "质权"
+          ],
+          "keywords": [
+            "质权",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度",
+              "section": "质权"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-07",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-07",
+          "title": "留置权",
+          "aliases": [
+            "留置权"
+          ],
+          "keywords": [
+            "留置权",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "物权法律制度",
+              "section": "留置权"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-general",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-general",
+          "title": "合同法律制度",
+          "aliases": [
+            "合同法律制度"
+          ],
+          "keywords": [
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-01",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-01",
+          "title": "合同订立",
+          "aliases": [
+            "合同订立"
+          ],
+          "keywords": [
+            "合同订立",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "合同订立"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-02",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-02",
+          "title": "合同效力",
+          "aliases": [
+            "合同效力"
+          ],
+          "keywords": [
+            "合同效力",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "合同效力"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-03",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-03",
+          "title": "合同履行",
+          "aliases": [
+            "合同履行"
+          ],
+          "keywords": [
+            "合同履行",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "合同履行"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-04",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-04",
+          "title": "合同保全",
+          "aliases": [
+            "合同保全"
+          ],
+          "keywords": [
+            "合同保全",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "合同保全"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-05",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-05",
+          "title": "合同变更转让终止",
+          "aliases": [
+            "合同变更转让终止"
+          ],
+          "keywords": [
+            "合同变更转让终止",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "合同变更转让终止"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-06",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-06",
+          "title": "违约责任",
+          "aliases": [
+            "违约责任"
+          ],
+          "keywords": [
+            "违约责任",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "违约责任"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-07",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-07",
+          "title": "买卖合同",
+          "aliases": [
+            "买卖合同"
+          ],
+          "keywords": [
+            "买卖合同",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "买卖合同"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-08",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-08",
+          "title": "借款合同",
+          "aliases": [
+            "借款合同"
+          ],
+          "keywords": [
+            "借款合同",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "借款合同"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-09",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-09",
+          "title": "租赁合同",
+          "aliases": [
+            "租赁合同"
+          ],
+          "keywords": [
+            "租赁合同",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "合同法律制度",
+              "section": "租赁合同"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-general",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-general",
+          "title": "金融法律制度",
+          "aliases": [
+            "金融法律制度"
+          ],
+          "keywords": [
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "金融法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-01",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-01",
+          "title": "票据法律制度",
+          "aliases": [
+            "票据法律制度"
+          ],
+          "keywords": [
+            "票据法律制度",
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "金融法律制度",
+              "section": "票据法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-02",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-02",
+          "title": "证券法律制度",
+          "aliases": [
+            "证券法律制度"
+          ],
+          "keywords": [
+            "证券法律制度",
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "金融法律制度",
+              "section": "证券法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-03",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-03",
+          "title": "保险法律制度",
+          "aliases": [
+            "保险法律制度"
+          ],
+          "keywords": [
+            "保险法律制度",
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "金融法律制度",
+              "section": "保险法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-04",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-04",
+          "title": "信托法律制度",
+          "aliases": [
+            "信托法律制度"
+          ],
+          "keywords": [
+            "信托法律制度",
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "金融法律制度",
+              "section": "信托法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch07-kp-general",
+          "chapterId": "el-ch07",
+          "sectionId": "el-ch07-sec-general",
+          "title": "财政法律制度",
+          "aliases": [
+            "财政法律制度"
+          ],
+          "keywords": [
+            "财政法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财政法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch07-kp-01",
+          "chapterId": "el-ch07",
+          "sectionId": "el-ch07-sec-01",
+          "title": "预算法律制度",
+          "aliases": [
+            "预算法律制度"
+          ],
+          "keywords": [
+            "预算法律制度",
+            "财政法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财政法律制度",
+              "section": "预算法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch07-kp-02",
+          "chapterId": "el-ch07",
+          "sectionId": "el-ch07-sec-02",
+          "title": "政府采购法律制度",
+          "aliases": [
+            "政府采购法律制度"
+          ],
+          "keywords": [
+            "政府采购法律制度",
+            "财政法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财政法律制度",
+              "section": "政府采购法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch07-kp-03",
+          "chapterId": "el-ch07",
+          "sectionId": "el-ch07-sec-03",
+          "title": "国有资产管理法律制度",
+          "aliases": [
+            "国有资产管理法律制度"
+          ],
+          "keywords": [
+            "国有资产管理法律制度",
+            "财政法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "2026教材目录",
+              "chapter": "财政法律制度",
+              "section": "国有资产管理法律制度"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-extra-general",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-extra-general",
+          "title": "公司解散诉讼",
+          "aliases": [
+            "公司解散诉讼",
+            "公司法律制度"
+          ],
+          "keywords": [
+            "公司解散诉讼",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "公司法律制度",
+              "section": "公司解散诉讼"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-extra-general",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-extra-general",
+          "title": "累积投票制",
+          "aliases": [
+            "累积投票制",
+            "金融法律制度"
+          ],
+          "keywords": [
+            "累积投票制",
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "金融法律制度",
+              "section": "累积投票制"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-extra-general",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-extra-general",
+          "title": "汇票记载事项",
+          "aliases": [
+            "汇票记载事项",
+            "金融法律制度"
+          ],
+          "keywords": [
+            "汇票记载事项",
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "金融法律制度",
+              "section": "汇票记载事项"
+            }
+          ]
+        },
+        {
+          "id": "el-ch07-kp-extra-general",
+          "chapterId": "el-ch07",
+          "sectionId": "el-ch07-sec-extra-general",
+          "title": "预算年度与预算草案",
+          "aliases": [
+            "预算年度与预算草案",
+            "财政法律制度"
+          ],
+          "keywords": [
+            "预算年度与预算草案",
+            "财政法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "财政法律制度",
+              "section": "预算年度与预算草案"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-extra-general",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-extra-general",
+          "title": "有限合伙人出资与责任",
+          "aliases": [
+            "有限合伙人出资与责任",
+            "合伙企业法律制度"
+          ],
+          "keywords": [
+            "有限合伙人出资与责任",
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "合伙企业法律制度",
+              "section": "有限合伙人出资与责任"
+            }
+          ]
+        },
+        {
+          "id": "el-ch05-kp-extra-general",
+          "chapterId": "el-ch05",
+          "sectionId": "el-ch05-sec-extra-general",
+          "title": "违约责任与定金",
+          "aliases": [
+            "违约责任与定金",
+            "合同法律制度"
+          ],
+          "keywords": [
+            "违约责任与定金",
+            "合同法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "合同法律制度",
+              "section": "违约责任与定金"
+            }
+          ]
+        },
+        {
+          "id": "el-ch03-kp-extra-general",
+          "chapterId": "el-ch03",
+          "sectionId": "el-ch03-sec-extra-general",
+          "title": "有限合伙人责任",
+          "aliases": [
+            "有限合伙人责任",
+            "合伙企业法律制度"
+          ],
+          "keywords": [
+            "有限合伙人责任",
+            "合伙企业法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "合伙企业法律制度",
+              "section": "有限合伙人责任"
+            }
+          ]
+        },
+        {
+          "id": "el-ch02-kp-extra-general",
+          "chapterId": "el-ch02",
+          "sectionId": "el-ch02-sec-extra-general",
+          "title": "法定公积金",
+          "aliases": [
+            "法定公积金",
+            "公司法律制度"
+          ],
+          "keywords": [
+            "法定公积金",
+            "公司法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "公司法律制度",
+              "section": "法定公积金"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-extra-general",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-extra-general",
+          "title": "建筑物区分所有权收益分配",
+          "aliases": [
+            "建筑物区分所有权收益分配",
+            "物权法律制度"
+          ],
+          "keywords": [
+            "建筑物区分所有权收益分配",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "物权法律制度",
+              "section": "建筑物区分所有权收益分配"
+            }
+          ]
+        },
+        {
+          "id": "el-ch06-kp-extra-general",
+          "chapterId": "el-ch06",
+          "sectionId": "el-ch06-sec-extra-general",
+          "title": "私募基金",
+          "aliases": [
+            "私募基金",
+            "金融法律制度"
+          ],
+          "keywords": [
+            "私募基金",
+            "金融法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "金融法律制度",
+              "section": "私募基金"
+            }
+          ]
+        },
+        {
+          "id": "el-ch04-kp-extra-general",
+          "chapterId": "el-ch04",
+          "sectionId": "el-ch04-sec-extra-general",
+          "title": "抵押权顺位",
+          "aliases": [
+            "抵押权顺位",
+            "物权法律制度"
+          ],
+          "keywords": [
+            "抵押权顺位",
+            "物权法律制度"
+          ],
+          "textbookRefs": [
+            {
+              "source": "题库标签映射",
+              "chapter": "物权法律制度",
+              "section": "抵押权顺位"
+            }
+          ]
+        }
+      ]
+    }
+  }
+};
