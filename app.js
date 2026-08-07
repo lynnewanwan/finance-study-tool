@@ -247,11 +247,17 @@ function displayKeys() {
 function ensureOptionOrder(question) {
   const originalKeys = Object.keys(question.options || {});
   if (!shouldShuffleOptions()) return originalKeys;
+  const savedAnswer = state.answers.find((answer) => answer.questionId === question.id);
+  if (!state.optionOrders[question.id] && savedAnswer?.optionOrder) {
+    state.optionOrders[question.id] = savedAnswer.optionOrder;
+  }
   if (!state.optionOrders[question.id]) {
     state.optionOrders[question.id] = shuffle(originalKeys);
     saveDraft();
   }
-  return state.optionOrders[question.id].filter((key) => originalKeys.includes(key));
+  const order = state.optionOrders[question.id].filter((key) => originalKeys.includes(key));
+  const missingKeys = originalKeys.filter((key) => !order.includes(key));
+  return [...order, ...missingKeys];
 }
 
 function displayedOptions(question) {
@@ -300,6 +306,10 @@ function isJudgeQuestion(question) {
 function formatAnswerLabel(answer) {
   const values = Array.isArray(answer) ? answer : normalizeAnswerValue(answer);
   return values.join("、");
+}
+
+function stripOptionPrefix(value, key) {
+  return String(value || "").replace(new RegExp(`^\s*${key}\s*[.．、:]?\s*`, "i"), "");
 }
 
 function questionTypeLabel(question) {
@@ -984,7 +994,7 @@ function renderAiExplanation(result) {
     judge: "判断题",
   }[exampleType] || "客观题";
   const exampleOptions = Object.entries(example.options || {})
-    .map(([key, value]) => `<li><strong>${key}</strong> ${value}</li>`)
+    .map(([key, value]) => `<li>${stripOptionPrefix(value, key)}</li>`)
     .join("");
   els.aiContent.innerHTML = `
     <div class="ai-block"><strong>核心知识点</strong><span>${result.knowledgePoint}</span></div>
