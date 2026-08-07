@@ -72,11 +72,12 @@ export default async function onRequest(context) {
 function buildPrompt(payload) {
   return JSON.stringify(
     {
-      task: "为一道中级会计财务管理单选题生成学习型解题说明和一道同类例题。",
+      task: "为一道中级会计客观题生成学习型解题说明和一道同知识点例题。",
       requirements: [
         "语言简洁，适合工作忙的备考者快速理解。",
         "不要改写原题答案。",
-        "同类例题必须是单选题，必须有 A/B/C/D 四个选项。",
+        "同类例题可以是单选题、多选题或判断题。若当前题型适合变式，优先使用当前题型；否则可切换为其他客观题型。",
+        "单选题答案为 A/B/C/D 中一个；多选题答案为数组，例如 [\"B\", \"D\"]；判断题使用 A/B 两个选项，A 为错误，B 为正确。",
         "返回 JSON 字段必须完全匹配 schema。",
       ],
       schema: {
@@ -84,9 +85,10 @@ function buildPrompt(payload) {
         solvingApproach: "解题思路，按步骤说明",
         commonMistake: "易错提醒，指出常见误区",
         example: {
+          exampleQuestionType: "single|multiple|judge",
           stem: "同类例题题干",
           options: { A: "选项A", B: "选项B", C: "选项C", D: "选项D" },
-          answer: "A/B/C/D",
+          answer: "A/B/C/D 或多选答案数组",
           explanation: "例题解析",
         },
       },

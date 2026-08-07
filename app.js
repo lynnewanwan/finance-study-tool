@@ -3,7 +3,7 @@ const subjects = {
     id: "financial_management",
     name: "财务管理",
     eyebrow: "中级会计 · 财务管理",
-    intro: "基于 2022-2025 财务管理真题单选题，进入摸底测试、AI动态测试、错题复习和 AI 解题。",
+    intro: "基于 2022-2025 财务管理真题，进入摸底测试、AI动态测试、错题复习和 AI 解题。",
     storageKey: "finance-study-tool-v1:financial_management",
     legacyStorageKey: "finance-study-tool-v1",
     aiProfile: "financial_management",
@@ -39,7 +39,7 @@ const isEdgeOneHost = location.hostname.endsWith(".edgeone.cool");
 const aiConfig = {
   endpoints: isEdgeOneHost ? ["/api/explain", cloudBaseEndpoint, cloudflareEndpoint] : [cloudBaseEndpoint, cloudflareEndpoint],
   useMock: false,
-  timeoutMs: 20000,
+  timeoutMs: 45000,
 };
 
 const els = {
@@ -71,6 +71,7 @@ const els = {
   emptyView: document.querySelector("#emptyView"),
   resultView: document.querySelector("#resultView"),
   subjectBadge: document.querySelector("#subjectBadge"),
+  typeBadge: document.querySelector("#typeBadge"),
   topicBadge: document.querySelector("#topicBadge"),
   sourceBadge: document.querySelector("#sourceBadge"),
   questionStem: document.querySelector("#questionStem"),
@@ -87,7 +88,7 @@ const els = {
   adviceList: document.querySelector("#adviceList"),
 };
 
-const upgradeNoticeKey = "finance-study-tool-upgrade-notice-v2.0";
+const upgradeNoticeKey = "finance-study-tool-upgrade-notice-v3.0";
 
 function renderUpgradeNotice() {
   if (!els.upgradeNotice) return;
@@ -264,10 +265,55 @@ function displayedOptions(question) {
   }, {});
 }
 
-function displayedAnswerKey(question) {
+function normalizeAnswerValue(value) {
+  if (Array.isArray(value)) return value.map(String).sort();
+  if (typeof value === "string" && value.includes(",")) return value.split(",").map((item) => item.trim()).filter(Boolean).sort();
+  return value ? [String(value)] : [];
+}
+
+function displayedAnswerKeys(question) {
+  const originalAnswers = normalizeAnswerValue(question.answer);
   const options = displayedOptions(question);
-  const entry = Object.entries(options).find(([, value]) => value.originalKey === question.answer);
-  return entry?.[0] || question.answer;
+  return Object.entries(options)
+    .filter(([, value]) => originalAnswers.includes(value.originalKey))
+    .map(([key]) => key)
+    .sort();
+}
+
+function displayedAnswerKey(question) {
+  return displayedAnswerKeys(question)[0] || (Array.isArray(question.answer) ? question.answer[0] : question.answer);
+}
+
+function displayedAnswerForAi(question) {
+  const keys = displayedAnswerKeys(question);
+  return isMultipleQuestion(question) ? keys : keys[0] || question.answer;
+}
+
+function isMultipleQuestion(question) {
+  return question.type === "multiple";
+}
+
+function isJudgeQuestion(question) {
+  return question.type === "judge";
+}
+
+function formatAnswerLabel(answer) {
+  const values = Array.isArray(answer) ? answer : normalizeAnswerValue(answer);
+  return values.join("、");
+}
+
+function questionTypeLabel(question) {
+  const labels = {
+    single: "单选题",
+    multiple: "多选题",
+    judge: "判断题",
+  };
+  return labels[question.type || "single"] || "单选题";
+}
+
+
+function selectedValues() {
+  return Array.isArray(state.selected) ? state.selected : state.selected ? [state.selected] : [];
 }
 
 function unresolvedDynamicWrongQuestionIds(attempts = loadProgress().attempts) {
@@ -476,10 +522,17 @@ function renderBankStats() {
     map[question.originType] = (map[question.originType] || 0) + 1;
     return map;
   }, {});
+  const typeLabels = { single: "单选题", multiple: "多选题", judge: "判断题" };
+  const countByType = activeQuestions().reduce((map, question) => {
+    const type = question.type || "single";
+    map[type] = (map[type] || 0) + 1;
+    return map;
+  }, {});
   const verified = activeQuestions().filter((question) => (question.status || question.reviewStatus) === "verified" || question.verified).length;
   const rows = Object.entries(countByOrigin).map(
     ([origin, count]) => `<div><span>${labels[origin] || origin}</span><strong>${count} 题</strong></div>`,
   );
+  rows.push(...Object.entries(countByType).map(([type, count]) => `<div><span>${typeLabels[type] || type}</span><strong>${count} 题</strong></div>`));
   const summary = questionQualitySummary(state.questions);
   rows.push(`<div><span>已核验/通过</span><strong>${verified} 题</strong></div>`);
   if (summary.issueCount) rows.push(`<div><span>待复核</span><strong>${summary.issueCount} 题</strong></div>`);
@@ -656,8 +709,10 @@ function renderQuestion() {
   const question = state.session[state.current];
   if (!question) return;
   const savedAnswer = state.answers.find((answer) => answer.questionId === question.id);
-  state.selected = savedAnswer?.selected || "";
+  state.selected = savedAnswer?.selected || (isMultipleQuestion(question) ? [] : "");
   els.subjectBadge.textContent = question.subject || currentSubject().name;
+  els.typeBadge.textContent = questionTypeLabel(question);
+  els.typeBadge.dataset.type = question.type || "single";
   els.topicBadge.textContent = question.subtopic ? `${question.topic} · ${question.subtopic}` : question.topic;
   const originLabel = question.originType === "ai_variant" ? "AI 变式题" : question.originType === "public_web" ? "公开题源" : question.originType === "mock_exam" ? "模拟题" : "本地真题";
   const verifyLabel = question.verified ? "已核验" : "待核验";
@@ -667,6 +722,7 @@ function renderQuestion() {
   els.options.innerHTML = Object.entries(optionsForDisplay)
     .map(([key, value]) => `<button class="option" data-key="${key}" data-original-key="${value.originalKey}"><b>${key}</b><span>${value.text}</span></button>`)
     .join("");
+  els.options.classList.toggle("multiple-options", isMultipleQuestion(question));
   els.feedback.classList.add("hidden");
   els.feedback.innerHTML = "";
   resetAiPanel();
@@ -687,19 +743,21 @@ function updateProgress() {
 
 function submitAnswer() {
   const question = state.session[state.current];
-  if (!question || !state.selected) return;
-  const displayedAnswer = displayedAnswerKey(question);
-  const correct = state.selected === displayedAnswer;
+  const selected = selectedValues().sort();
+  if (!question || !selected.length) return;
+  const displayedAnswer = displayedAnswerKeys(question).sort();
+  const correct = selected.length === displayedAnswer.length && selected.every((key, index) => key === displayedAnswer[index]);
   state.answers = state.answers.filter((answer) => answer.questionId !== question.id);
   const answer = {
     questionId: question.id,
     subjectId: state.subjectId,
     topic: question.topic,
-    selected: state.selected,
-    answer: displayedAnswer,
+    selected: isMultipleQuestion(question) ? selected : selected[0],
+    answer: isMultipleQuestion(question) ? displayedAnswer : displayedAnswer[0],
     originalAnswer: question.answer,
     optionOrder: state.optionOrders[question.id] || Object.keys(question.options || {}),
     mode: state.mode,
+    questionType: question.type || "single",
     correct,
   };
   state.answers.push(answer);
@@ -709,15 +767,34 @@ function submitAnswer() {
 }
 
 function renderAnsweredState(question, answer) {
+  const selected = normalizeAnswerValue(answer.selected);
+  const correctAnswers = normalizeAnswerValue(answer.answer);
   for (const button of els.options.querySelectorAll(".option")) {
     const key = button.dataset.key;
+    const isSelected = selected.includes(key);
+    const isCorrect = correctAnswers.includes(key);
     button.disabled = true;
-    if (key === answer.selected) button.classList.add("selected");
-    if (key === answer.answer) button.classList.add("correct");
-    if (key === answer.selected && !answer.correct) button.classList.add("wrong");
+    if (isSelected) button.classList.add("selected");
+    if (isCorrect) button.classList.add("correct");
+    if (isSelected && !isCorrect) button.classList.add("wrong");
+    if (isSelected && isCorrect) {
+      button.classList.add("correct-picked");
+      button.dataset.resultLabel = isMultipleQuestion(question) ? "你选对了" : "正确答案";
+    } else if (isSelected && !isCorrect) {
+      button.classList.add("wrong-picked");
+      button.dataset.resultLabel = "你错选了";
+    } else if (!isSelected && isCorrect) {
+      button.classList.add("missed-correct");
+      button.dataset.resultLabel = isMultipleQuestion(question) ? "漏选正确项" : "正确答案";
+    }
   }
   els.feedback.classList.remove("hidden");
-  els.feedback.innerHTML = `<strong>${answer.correct ? "答对了" : `答错了，正确答案是 ${answer.answer}`}</strong><br>${question.explanation}`;
+  const missed = correctAnswers.filter((key) => !selected.includes(key));
+  const wronglyPicked = selected.filter((key) => !correctAnswers.includes(key));
+  const multipleDetail = isMultipleQuestion(question) && !answer.correct
+    ? `<br><span class="answer-detail">正确答案：${formatAnswerLabel(answer.answer)}｜你的答案：${formatAnswerLabel(answer.selected)}${wronglyPicked.length ? `｜错选：${formatAnswerLabel(wronglyPicked)}` : ""}${missed.length ? `｜漏选：${formatAnswerLabel(missed)}` : ""}</span>`
+    : "";
+  els.feedback.innerHTML = `<strong>${answer.correct ? "答对了" : `答错了，正确答案是 ${formatAnswerLabel(answer.answer)}`}</strong>${multipleDetail}<br>${question.explanation}`;
   els.aiPanel.classList.remove("hidden");
   els.submitAnswer.classList.add("hidden");
   els.nextQuestion.classList.remove("hidden");
@@ -738,9 +815,10 @@ function currentAnsweredQuestion() {
 
 function buildAiPayload(question, answer) {
   const subject = subjects[question.subjectId] || currentSubject();
+  const questionType = question.type || "single";
   const promptHint = subject.id === "economic_law"
-    ? "请按经济法学习方式解释：指出法条关键词、判断路径、例外规则和易混点；同类例题用小案例单选题。"
-    : "请按财务管理学习方式解释：指出公式、变量、判断模型和易错计算口径；同类例题保持单选题。";
+    ? `请按经济法学习方式解释这道${questionTypeLabel(question)}：指出法条关键词、判断路径、例外规则和易混点；同类例题可以是单选题、多选题或判断题。`
+    : `请按财务管理学习方式解释这道${questionTypeLabel(question)}：指出公式、变量、判断模型和易错计算口径；同类例题可以是单选题、多选题或判断题。`;
   return {
     subject: question.subject || subject.name,
     subjectId: subject.id,
@@ -750,9 +828,10 @@ function buildAiPayload(question, answer) {
     subtopic: question.subtopic || "",
     question: {
       id: question.id,
+      type: questionType,
       stem: question.stem,
       options: Object.fromEntries(Object.entries(displayedOptions(question)).map(([key, value]) => [key, value.text])),
-      answer: displayedAnswerKey(question),
+      answer: formatAnswerLabel(displayedAnswerForAi(question)),
       explanation: question.explanation,
       sourceYear: question.sourceYear || question.year,
       chapterId: question.chapterId || "",
@@ -763,7 +842,7 @@ function buildAiPayload(question, answer) {
       status: question.status || question.reviewStatus || "",
     },
     learnerAnswer: {
-      selected: answer.selected,
+      selected: formatAnswerLabel(answer.selected),
       correct: answer.correct,
     },
     outputSchema: {
@@ -771,6 +850,7 @@ function buildAiPayload(question, answer) {
       solvingApproach: "string",
       commonMistake: "string",
       example: {
+        exampleQuestionType: "single|multiple|judge",
         stem: "string",
         options: { A: "string", B: "string", C: "string", D: "string" },
         answer: "string",
@@ -844,8 +924,8 @@ async function fetchAiEndpoint(endpoint, payload) {
 
 function mockAiExplanation(question, answer) {
   const optionsForDisplay = displayedOptions(question);
-  const selectedText = optionsForDisplay[answer.selected]?.text || "未选择";
-  const correctText = optionsForDisplay[answer.answer]?.text || "";
+  const selectedText = normalizeAnswerValue(answer.selected).map((key) => optionsForDisplay[key]?.text).filter(Boolean).join("；") || "未选择";
+  const correctText = normalizeAnswerValue(answer.answer).map((key) => optionsForDisplay[key]?.text).filter(Boolean).join("；") || "";
   if ((question.subjectId || state.subjectId) === "economic_law") {
     return Promise.resolve({
       knowledgePoint: `${question.topic}：先锁定题目考查的法律关系，再判断规则、例外和关键词。`,
@@ -877,6 +957,7 @@ function buildMockExample(question) {
         D: "经济法题只需要记结论，不需要看例外规则",
       },
       answer: "A",
+      exampleQuestionType: "single",
       explanation: "经济法题通常先看主体、行为、时间和程序，再判断法律规则及例外。",
     };
   }
@@ -889,12 +970,20 @@ function buildMockExample(question) {
       D: "所有财务管理题都只能通过背诵概念作答",
     },
     answer: "A",
+    exampleQuestionType: "single",
     explanation: "财务管理题的第一步是判断考点和模型，再处理计算或概念辨析。直接按数字大小猜选项很容易被干扰项带偏。",
   };
 }
 
 function renderAiExplanation(result) {
-  const exampleOptions = Object.entries(result.example.options)
+  const example = result.example || {};
+  const exampleType = example.exampleQuestionType || example.type || "single";
+  const exampleTypeText = {
+    single: "单选题",
+    multiple: "多选题",
+    judge: "判断题",
+  }[exampleType] || "客观题";
+  const exampleOptions = Object.entries(example.options || {})
     .map(([key, value]) => `<li><strong>${key}</strong> ${value}</li>`)
     .join("");
   els.aiContent.innerHTML = `
@@ -902,11 +991,11 @@ function renderAiExplanation(result) {
     <div class="ai-block"><strong>解题思路</strong><span>${result.solvingApproach}</span></div>
     <div class="ai-block"><strong>易错提醒</strong><span>${result.commonMistake}</span></div>
     <div class="ai-example">
-      <strong>同类例题${result.isMock ? "（mock）" : ""}</strong>
-      <p>${result.example.stem}</p>
+      <strong>同类例题 · ${exampleTypeText}${result.isMock ? "（mock）" : ""}</strong>
+      <p>${example.stem || ""}</p>
       <ol type="A">${exampleOptions}</ol>
-      <p><strong>答案：</strong>${result.example.answer}</p>
-      <p><strong>解析：</strong>${result.example.explanation}</p>
+      <p><strong>答案：</strong>${formatAnswerLabel(example.answer)}</p>
+      <p><strong>解析：</strong>${example.explanation || ""}</p>
     </div>
   `;
 }
@@ -942,13 +1031,14 @@ function showResult(endedEarly) {
   const wrong = total - correct;
   const weak = topicStats(state.answers).filter((item) => item.wrong > 0);
   const visibleWeak = weak.slice(0, 8);
+  const typeSummary = answerTypeSummary(state.answers);
   els.questionView.classList.add("hidden");
   els.resultView.classList.remove("hidden");
   els.resultTitle.textContent = endedEarly ? "本次作答已保存" : state.mode === "diagnostic" ? "摸底完成" : "本轮练习完成";
   els.resultSummary.innerHTML = `
-    <div class="result-card"><strong>${correct}/${total}</strong><span>本轮答对</span></div>
-    <div class="result-card"><strong>${wrong}</strong><span>本轮答错</span></div>
-    <div class="result-card"><strong>${total ? Math.round((correct / total) * 100) : 0}%</strong><span>本轮正确率</span></div>
+    <div class="result-card"><strong>${correct}/${total}</strong><span>本轮答对</span>${renderTypeChips(typeSummary, "correct")}</div>
+    <div class="result-card"><strong>${wrong}</strong><span>本轮答错</span>${renderTypeChips(typeSummary, "wrong")}</div>
+    <div class="result-card"><strong>${total ? Math.round((correct / total) * 100) : 0}%</strong><span>本轮正确率</span>${renderTypeChips(typeSummary, "accuracy")}</div>
     <div class="result-card"><strong>${weak[0]?.topic || "暂无"}</strong><span>优先补强</span></div>
   `;
   els.adviceList.innerHTML = weak.length
@@ -958,6 +1048,42 @@ function showResult(endedEarly) {
     : `<li>本轮表现稳定，可以进入AI动态测试，继续扩大题量。</li>`;
   state.current = state.session.length;
   updateProgress();
+}
+
+function answerTypeSummary(answers) {
+  const labels = {
+    single: "单选",
+    multiple: "多选",
+    judge: "判断",
+  };
+  return Object.entries(labels).map(([type, label]) => {
+    const items = answers.filter((answer) => (answer.questionType || "single") === type);
+    const correct = items.filter((answer) => answer.correct).length;
+    const total = items.length;
+    return {
+      type,
+      label,
+      correct,
+      wrong: total - correct,
+      total,
+      accuracy: total ? Math.round((correct / total) * 100) : 0,
+    };
+  });
+}
+
+function renderTypeChips(summary, metric) {
+  const chips = summary
+    .filter((item) => item.total > 0)
+    .map((item) => {
+      const value = metric === "correct"
+        ? `${item.correct}/${item.total}`
+        : metric === "wrong"
+          ? item.wrong
+          : `${item.accuracy}%`;
+      return `<span>${item.label} ${value}</span>`;
+    })
+    .join("");
+  return chips ? `<div class="result-type-chips">${chips}</div>` : "";
 }
 
 function resumeDraft() {
@@ -1001,6 +1127,19 @@ els.migrateLegacyData.addEventListener("click", migrateLegacyDataManually);
 els.options.addEventListener("click", (event) => {
   const button = event.target.closest(".option");
   if (!button || button.disabled) return;
+  const question = state.session[state.current];
+  if (isMultipleQuestion(question)) {
+    const current = new Set(selectedValues());
+    if (current.has(button.dataset.key)) {
+      current.delete(button.dataset.key);
+      button.classList.remove("selected");
+    } else {
+      current.add(button.dataset.key);
+      button.classList.add("selected");
+    }
+    state.selected = [...current].sort();
+    return;
+  }
   state.selected = button.dataset.key;
   for (const item of els.options.querySelectorAll(".option")) item.classList.remove("selected");
   button.classList.add("selected");
@@ -1031,9 +1170,10 @@ function buildAiQuestionDraftPayload(questionId, mode = "variant") {
     subjectName: subject.name,
     sourceQuestion: {
       id: question.id,
+      type: question.type || "single",
       stem: question.stem,
       options: Object.fromEntries(Object.entries(displayedOptions(question)).map(([key, value]) => [key, value.text])),
-      answer: displayedAnswerKey(question),
+      answer: displayedAnswerForAi(question),
       explanation: question.explanation,
       originType: question.originType,
       sourceName: question.sourceName,

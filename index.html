@@ -14,8 +14,8 @@
         <p class="subtle">先选择科目，再进入对应的刷题、错题和 AI 解题界面。财务管理和经济法使用同一套练习引擎，但学习记录按科目分别保存。</p>
         <section id="upgradeNotice" class="upgrade-notice" aria-label="版本升级公告">
           <div>
-            <strong>v2.0 已升级</strong>
-            <p>新增 AI动态测试：会根据薄弱知识点安排练习，并避开当前错题集原题。</p>
+            <strong>v3.0 已升级</strong>
+            <p>新增多选题、判断题练习；AI动态测试继续根据薄弱知识点安排训练。</p>
           </div>
           <button id="dismissUpgradeNotice" type="button" aria-label="关闭版本升级公告">知道了</button>
         </section>
@@ -23,7 +23,7 @@
           <button class="landing-subject-card" data-subject="financial_management" type="button">
             <span class="card-eyebrow">中级会计 · 财务管理</span>
             <strong>财务管理</strong>
-            <span class="card-desc">基于 2022-2025 财务管理真题单选题，进入摸底测试、AI动态测试、错题复习和 AI 解题。</span>
+            <span class="card-desc">基于 2022-2025 财务管理真题，进入摸底测试、AI动态测试、错题复习和 AI 解题。</span>
           </button>
           <button class="landing-subject-card" data-subject="economic_law" type="button">
             <span class="card-eyebrow">中级会计 · 经济法</span>
@@ -95,6 +95,7 @@
         <article id="questionView" class="panel question hidden">
           <div class="meta">
             <span id="subjectBadge"></span>
+            <span id="typeBadge"></span>
             <span id="topicBadge"></span>
             <span id="sourceBadge"></span>
           </div>

@@ -230,6 +230,7 @@ h1 {
 .meta {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 8px;
   margin-bottom: 16px;
 }
@@ -243,6 +244,22 @@ h1 {
   font-weight: 800;
 }
 
+#typeBadge {
+  border-radius: 12px;
+  padding: 8px 14px;
+  color: #fff;
+  background: var(--brand);
+  box-shadow: inset 0 -2px rgba(0, 0, 0, 0.12);
+}
+
+#typeBadge[data-type="multiple"] {
+  background: var(--brand-2);
+}
+
+#typeBadge[data-type="judge"] {
+  background: #4a63b8;
+}
+
 .options {
   display: grid;
   gap: 12px;
@@ -251,7 +268,7 @@ h1 {
 
 .option {
   display: grid;
-  grid-template-columns: 34px 1fr;
+  grid-template-columns: 34px 1fr auto;
   gap: 12px;
   align-items: start;
   width: 100%;
@@ -284,11 +301,44 @@ h1 {
   background: #fff0ed;
 }
 
+.option[data-result-label]::after {
+  content: attr(data-result-label);
+  align-self: center;
+  border-radius: 999px;
+  padding: 5px 10px;
+  color: var(--brand);
+  background: #dff2ec;
+  font-size: 12px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.option.wrong-picked[data-result-label]::after {
+  color: var(--bad);
+  background: #ffd9d4;
+}
+
+.option.missed-correct {
+  border-style: dashed;
+}
+
+.option.missed-correct[data-result-label]::after {
+  color: var(--ok);
+  background: #e1f4e7;
+}
+
 .feedback {
   border-left: 4px solid var(--brand);
   padding: 14px 16px;
   background: #f5f1e8;
   line-height: 1.7;
+}
+
+.answer-detail {
+  display: inline-block;
+  margin: 8px 0 2px;
+  color: var(--brand);
+  font-weight: 800;
 }
 
 .ai-panel {
@@ -366,6 +416,25 @@ h1 {
 
 .result-card span {
   color: var(--muted);
+}
+
+.result-type-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.result-type-chips span {
+  border: 1px solid rgba(38, 111, 96, 0.24);
+  border-radius: 999px;
+  padding: 5px 9px;
+  color: var(--brand);
+  background: var(--soft);
+  font-size: 12px;
+  font-weight: 900;
 }
 
 #adviceList {
@@ -586,4 +655,15 @@ h1 {
     align-items: flex-start;
     flex-direction: column;
   }
+}
+
+.multiple-options .option.selected {
+  box-shadow: inset 0 0 0 2px var(--brand);
+}
+
+.multiple-options .option.selected b::after {
+  content: "✓";
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 12px;
 }
